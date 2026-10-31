@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<EquipmentPrototype xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NativeName>Plastic Scrap</NativeName>
+  <NativeDescription>Thermoplastics: meltable, durable, and always ready to reshape the future!</NativeDescription>
+  <Category>6:Crafting</Category>
+  <Weight>0.01</Weight>
+  <BasePrice>0.5</BasePrice>
+  <CanSurviveBuildingCollapse>true</CanSurviveBuildingCollapse>
+  <Scarcity>Common</Scarcity>
+  <LootableFromLocations>
+    <LootableFrom>
+      <Name>Bin</Name>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>House</Name>
+      <OverrideScarcity>Uncommon</OverrideScarcity>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>HardwareStore</Name>
+      <OverrideScarcity>Rare</OverrideScarcity>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>Zombie</Name>
+      <OverrideScarcity>Rare</OverrideScarcity>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>VendingMachine</Name>
+      <OverrideScarcity>Uncommon</OverrideScarcity>
+    </LootableFrom>
+  </LootableFromLocations>
+  <TypicalLootAmount>5</TypicalLootAmount>
+  <TradeBehaviour>CanSellToAnyone</TradeBehaviour>
+  <ColorVariations />
+</EquipmentPrototype>

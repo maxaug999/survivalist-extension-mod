@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<StorySettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SteamWorkshopId>2891577257</SteamWorkshopId>
+  <NativeName>Fri's Camp and Stuff</NativeName>
+  <NativeDescription>Contains buildable props, buildings and possibly weapons to support survivor camps.
+
+This used to be an unlisted release for compensation sudden deletions of my renewed models to the Towns and stuff way back. Since it feels very incomplete I was hesitant to release on public, while it still is incomplete I thought maybe this could be helpful for camps too.
+
+This mod will be a breather while I work on Town and Stuff.
+
+[h1]Buildings[/h1]
+[b]Shelf[/b] (Model and capacity may be subject to change for revision)
+A 2x1 Storage with 1600 lbs capacity
+
+[b]Oven[/b] (Model and recipe subject to change)
+Halves the rate of speed of cooking
+
+[h1]Weapons:[/h1]
+[b]Throwing rock[/b]
+Made by breaking down flint into chunks 
+
+[h1]Vanilla:[/h1]
+[b]Portable Toilet[/b]
+Built by assembling Portable Parts
+
+Known issues:
+[quote]
+- Lag when oven is on fire
+- Lack of sound for the oven on fire
+[/quote]</NativeDescription>
+  <IsMod>true</IsMod>
+  <ProcedurallyGenerated>false</ProcedurallyGenerated>
+  <MapSize>Large</MapSize>
+  <StartDayOfYear>0</StartDayOfYear>
+  <StartHourOfDay>0</StartHourOfDay>
+  <ClothesPoints>6</ClothesPoints>
+  <SummerClothesPoints>4</SummerClothesPoints>
+  <WinterClothesPoints>8</WinterClothesPoints>
+  <EquipmentPoints>3</EquipmentPoints>
+  <SkillPoints>6</SkillPoints>
+  <StartingEquipmentOptions />
+  <Loadouts />
+  <DifficultySettings />
+  <Dependencies>
+    <StoryId>
+      <Folder>BaseStory</Folder>
+      <WorkshopId>0</WorkshopId>
+    </StoryId>
+  </Dependencies>
+  <HitTheRoadStory>
+    <WorkshopId>0</WorkshopId>
+  </HitTheRoadStory>
+  <HitTheRoadKeepVariables />
+  <HitTheRoadMinFuelPercent>75</HitTheRoadMinFuelPercent>
+  <HitTheRoadMaxDamagePercent>50</HitTheRoadMaxDamagePercent>
+</StorySettings>

@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+CRC: 3064661516
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0e7d8751d2759d628112dd9b14436599
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a69602539e540fa23867ae2f1da8f108
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Export/Friunt/Camp/C_FWOven.prefab
+Dependencies: []

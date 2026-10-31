@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<PropPrototype xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NativeName>Shelf</NativeName>
+  <Category>Camp/Fri's-unlisted/Props</Category>
+  <PrefabNames>
+    <string>assets/export/friunt/camp/c_shed.prefab</string>
+    <string>assets/export/friunt/camp/c_shed1.prefab</string>
+    <string>assets/export/friunt/camp/c_shed2.prefab</string>
+  </PrefabNames>
+  <ModelOffset>
+    <Vector3>
+      <x>0</x>
+      <y>0</y>
+      <z>0</z>
+    </Vector3>
+    <Vector3>
+      <x>0</x>
+      <y>0</y>
+      <z>0</z>
+    </Vector3>
+    <Vector3>
+      <x>0</x>
+      <y>0</y>
+      <z>0</z>
+    </Vector3>
+  </ModelOffset>
+  <MinMaxScale />
+  <MaxDamage>30</MaxDamage>
+  <Flammability>Medium_RequiresFuel</Flammability>
+  <BulletHitEffect>Smoke</BulletHitEffect>
+  <ExtentsMin>
+    <x>-1</x>
+    <y>0</y>
+  </ExtentsMin>
+  <WantFlattenTerrain>true</WantFlattenTerrain>
+  <CanBeDemolished>true</CanBeDemolished>
+  <MaxInventoryWeight>1600</MaxInventoryWeight>
+  <LootLocation>Camp</LootLocation>
+  <RepairResourceType>Wood</RepairResourceType>
+  <RepairResourceNeeded>2</RepairResourceNeeded>
+  <CaptureResourceType>Wood</CaptureResourceType>
+  <CaptureResourceNeeded>2</CaptureResourceNeeded>
+</PropPrototype>

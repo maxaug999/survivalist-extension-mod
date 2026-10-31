@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<EquipmentPrototype xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TypeName>Throwable</TypeName>
+  <NativeName>Throwing Stone</NativeName>
+  <NativeDescription>A reliable primitive weapon.</NativeDescription>
+  <Category>2:Weapons/Throwable</Category>
+  <Weight>0.5</Weight>
+  <BasePrice>0.01</BasePrice>
+  <CanBeEquipped>true</CanBeEquipped>
+  <EquippedModelName>Prefabs/Equipment/Flint</EquippedModelName>
+  <TradeBehaviour>CantSellToAnyone</TradeBehaviour>
+  <ColorVariations />
+  <InjuryType>BluntObject</InjuryType>
+  <Damage>0.5</Damage>
+  <DamageBonusPerSkillLevel>0.1</DamageBonusPerSkillLevel>
+  <Range>16</Range>
+  <RangeBonusPerSkillLevel>2</RangeBonusPerSkillLevel>
+  <FatiguePenaltyWhenAttacking>0.1</FatiguePenaltyWhenAttacking>
+  <ProjectileHitSounds />
+</EquipmentPrototype>

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<PropPrototype xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TypeName>Kiln</TypeName>
+  <NativeName>Oven</NativeName>
+  <Category>Camp/Fri's-unlisted/Props</Category>
+  <PrefabNames>
+    <string>assets/export/friunt/camp/c_oven.prefab</string>
+    <string>assets/export/friunt/camp/c_fwoven.prefab</string>
+  </PrefabNames>
+  <ModelOffset>
+    <Vector3>
+      <x>0</x>
+      <y>0</y>
+      <z>0</z>
+    </Vector3>
+    <Vector3>
+      <x>0</x>
+      <y>0</y>
+      <z>0</z>
+    </Vector3>
+  </ModelOffset>
+  <MinMaxScale />
+  <MaxDamage>35</MaxDamage>
+  <Flammability>Low_RequiresExplosion</Flammability>
+  <ExtentsMin>
+    <x>-1</x>
+    <y>0</y>
+  </ExtentsMin>
+  <ExtentsMax>
+    <x>0</x>
+    <y>1</y>
+  </ExtentsMax>
+  <WantFlattenTerrain>true</WantFlattenTerrain>
+  <CanBeDemolished>true</CanBeDemolished>
+  <MaxInventoryWeight>200</MaxInventoryWeight>
+  <LootLocation>Camp</LootLocation>
+  <RepairResourceType>Stone</RepairResourceType>
+  <RepairResourceNeeded>2</RepairResourceNeeded>
+  <CaptureResourceType>Wood</CaptureResourceType>
+  <CaptureResourceNeeded>3</CaptureResourceNeeded>
+</PropPrototype>

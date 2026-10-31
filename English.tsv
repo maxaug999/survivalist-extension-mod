@@ -1,0 +1,65 @@
+Tag	Translation
+STORY_Title	Fri's Camp and Stuff
+STORY_Description	Contains buildable props, buildings and possibly weapons to support survivor camps.  This used to be an unlisted release for compensation sudden deletions of my renewed models to the Towns and stuff way back. Since it feels very incomplete I was hesitant to release on public, while it still is incomplete I thought maybe this could be helpful for camps too.  This mod will be a breather while I work on Town and Stuff.  [h1]Buildings[/h1] [b]Shelf[/b] (Model and capacity may be subject to change for revision) A 2x1 Storage with 1600 lbs capacity  [b]Oven[/b] (Model and recipe subject to change) Halves the rate of speed of cooking  [h1]Weapons:[/h1] [b]Throwing rock[/b] Made by breaking down flint into chunks   [h1]Vanilla:[/h1] [b]Portable Toilet[/b] Built by assembling Portalet parts  Known issues: [quote] - Lag when oven is on fire - Lack of sound for the oven on fire [/quote]
+
+EQUIPMENT_FC_coins	Coins
+DESC_FC_coins	Former medium of exchange, still valuable to some.
+EQUIPMENT_FC_copper	Copper
+DESC_FC_copper	Refined copper metal.
+EQUIPMENT_PortableParts	Portable Parts
+DESC_PortableParts	Used for creating Plastic Constructions.
+EQUIPMENT_FC_throwstone	Throwing Stone
+DESC_FC_throwstone	A reliable primitive weapon.
+EQUIPMENT_PlasticScrap	Plastic Scrap
+DESC_PlasticScrap	Thermoplastics: meltable, durable, and always ready to reshape the future!
+
+PROP_FC_Oven	Oven
+PROP_FC_Shelf	Shelf
+
+RECIPE_meltTo_Jerrycan	Melt into JerryCan
+RECIPE_meltTo_Bottle	Melt into Plastic Bottle
+RECIPE_meltTo_Bucket	Melt into Catering Bucket
+RECIPE_meltTo_Tupper	Melt into Sealed Container
+RECIPE_meltTo_WateringCan	Melt into Watering Can
+RECIPE_pyrolize_Scrap	Pyrolyze to Fuel
+RECIPE_scrap_SunflowerBottle	Shred Plastic
+RECIPE_scrap_Bottle	Shred Plastic
+RECIPE_scrap_Bucket	Shred Plastic
+RECIPE_scrap_Tupper	Shred Plastic
+RECIPE_scrap_WateringCan	Shred Plastic
+RECIPE_scrap_Jerrycan	Shred JerryCan
+RECIPE_Make Plastic Flint Arrows	Make Plastic Flint Arrows
+RECIPE_Make Plastic Iron Arrows	Make Plastic Iron Arrows
+RECIPE_Make Plastic Steel Arrows	Make Plastic Steel Arrows
+RECIPE_FC_Assemble Portable Toilet	Assemble Portable Toilet
+RECIPE_FC_Boil Egg	Boil Egg
+RECIPE_FC_Boil Egg x6	Boil Egg
+RECIPE_FC_Build Oven	Build Oven
+RECIPE_FC_Build Shelf	Build Shelf
+RECIPE_FC_Cook Chicken	Cook Chicken
+RECIPE_FC_Cook Corn	Boil Corn on the Cob
+RECIPE_FC_Cook Corn x5	Boil Corn on the Cob x5
+RECIPE_FC_Cook Human Meat Curry	Cook Suspiciously Meaty Curry
+RECIPE_FC_Cook Human Meat Stew	Cook Suspiciously Meaty Stew
+RECIPE_FC_Cook Meaty Curry	Cook Meaty Curry
+RECIPE_FC_Cook Meaty Stew	Cook Meaty Stew
+RECIPE_FC_Cook Rabbit	Cook Rabbit
+RECIPE_FC_Cook Suspicious Meat	Cook Suspicious Meat
+RECIPE_FC_Cook Veggie Curry	Cook Veggie Curry
+RECIPE_FC_Cook Veggie Stew	Cook Veggie Stew
+RECIPE_FC_Cook Venison	Cook Venison
+RECIPE_Make Portable Parts	Make Portable Parts
+RECIPE_FC_Make Armor Piercing AR Ammo	Make Armor Piercing AR Ammo
+RECIPE_FC_Make Armor Piercing Sniper Ammo	Make Armor Piercing Sniper Ammo
+RECIPE_FC_Make Assault Rifle Ammo	Make Assault Rifle Ammo
+RECIPE_FC_Make Bandage x5	Sterilize x5
+RECIPE_FC_Make Beet Sugar	Make Beet Sugar
+RECIPE_FC_Make Charcoal x4	Make Charcoal x4
+RECIPE_FC_Make Cookies	Make Cookies
+RECIPE_FC_Make Pistol Ammo	Make Pistol Ammo
+RECIPE_FC_Make Shotgun Shells	Make Shotgun Shells
+RECIPE_FC_Make Sniper Rifle Ammo	Make Sniper Rifle Ammo
+RECIPE_FC_Make Sunflower Oil	Make Sunflower Oil
+RECIPE_FC_Make Throwingstone	Break into throwable chunks
+RECIPE_FC_Melt Coins	Melt Coins
+RECIPE_FC_Melt Coins x5	Melt Coins x5

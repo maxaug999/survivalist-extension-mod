@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<EquipmentPrototype xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NativeName>Copper</NativeName>
+  <NativeDescription>Good ingredient</NativeDescription>
+  <Category>6:Crafting</Category>
+  <Weight>1</Weight>
+  <BasePrice>1</BasePrice>
+  <Scarcity>Uncommon</Scarcity>
+  <LootableFromLocations>
+    <LootableFrom>
+      <Name>Camp</Name>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>ElectronicsStore</Name>
+    </LootableFrom>
+  </LootableFromLocations>
+  <TypicalLootAmount>4</TypicalLootAmount>
+</EquipmentPrototype>
