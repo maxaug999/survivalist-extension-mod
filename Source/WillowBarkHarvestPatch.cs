@@ -13,7 +13,7 @@ public class Main
         {
             harmony = new Harmony("com.survivalist.willowbark");
             harmony.PatchAll(Assembly.GetExecutingAssembly());
-            Debug.Log("[WillowBark] Successfully loaded and applied Harmony patches for Tree Cutting & Harvesting.");
+            Debug.Log("[WillowBark] Successfully loaded Harmony patch for FallenTreeProp.ChopWood.");
         }
         catch (Exception ex)
         {
@@ -41,7 +41,7 @@ public class Main
 
 public static class WillowBarkHelper
 {
-    public const float DropChance = 0.80f;
+    public const float DropChance = 0.80f; // Rare occasion: ~20% chance per chop
 
     public static EquipmentPrototype FindBarkPrototype()
     {
@@ -137,29 +137,7 @@ public static class WillowBarkHelper
     }
 }
 
-// 1. Hook when a standing tree is chopped down and starts falling
-[HarmonyPatch(typeof(FallenTreeProp), "StartFalling")]
-public static class FallenTreeProp_StartFalling_Patch
-{
-    [HarmonyPostfix]
-    public static void Postfix(FallenTreeProp __instance, Vector2 preferredDirXZ, TileObject chopper)
-    {
-        WillowBarkHelper.TryDropWillowBark(chopper, __instance, "Tree Cut Down (StartFalling)");
-    }
-}
-
-// 2. Hook when wood is harvested/gathered from a fallen tree log
-[HarmonyPatch(typeof(FallenTreeProp), "HarvestWood")]
-public static class FallenTreeProp_HarvestWood_Patch
-{
-    [HarmonyPostfix]
-    public static void Postfix(FallenTreeProp __instance, Character character, bool gathering)
-    {
-        WillowBarkHelper.TryDropWillowBark(character, __instance, "HarvestWood");
-    }
-}
-
-// 3. Hook when a fallen tree log is chopped into firewood
+// Hook strictly when chopping a fallen tree log
 [HarmonyPatch(typeof(FallenTreeProp), "ChopWood")]
 public static class FallenTreeProp_ChopWood_Patch
 {
