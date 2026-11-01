@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<PropPrototype xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TypeName>WorkBench</TypeName>
+  <NativeName>Improvised Lab</NativeName>
+  <Category>Medical</Category>
+  <PrefabNames>
+    <string>assets/prefabs/sketchfab_2021_06_12_14_42_33.prefab</string>
+  </PrefabNames>
+  <ModelOffset>
+    <Vector3>
+      <x>-1.33</x>
+      <y>1.383</y>
+      <z>1.117</z>
+    </Vector3>
+  </ModelOffset>
+  <MinMaxScale />
+  <IconScale>0.7</IconScale>
+  <MaxDamage>10</MaxDamage>
+  <Flammability>Low_RequiresExplosion</Flammability>
+  <BulletHitEffect>Smoke</BulletHitEffect>
+  <ExtentsMax>
+    <x>0</x>
+    <y>1</y>
+  </ExtentsMax>
+  <CanBeDemolished>true</CanBeDemolished>
+  <RepairAnim>Crafting</RepairAnim>
+  <RepairResourceType>Wood</RepairResourceType>
+  <RepairResourceNeeded>1</RepairResourceNeeded>
+  <CaptureResourceType>Wood</CaptureResourceType>
+  <CaptureResourceNeeded>1</CaptureResourceNeeded>
+  <SpawnProbabilityFactor>0</SpawnProbabilityFactor>
+</PropPrototype>

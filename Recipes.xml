@@ -1419,18 +1419,6 @@
           </PrototypeNames>
           <Amount>2</Amount>
         </Ingredient>
-        <Ingredient>
-          <PrototypeNames>
-            <string>Bloodpack</string>
-          </PrototypeNames>
-          <Amount>1</Amount>
-        </Ingredient>
-        <Ingredient>
-          <PrototypeNames>
-            <string>Aspirin</string>
-          </PrototypeNames>
-          <Amount>1</Amount>
-        </Ingredient>
       </Ingredients>
     </Recipe>
     <Recipe>
@@ -1462,6 +1450,242 @@
       <ProductAmount>5</ProductAmount>
       <CraftingTime>0</CraftingTime>
       <Ingredients />
+    </Recipe>
+    <Recipe>
+      <UniqueID>Build Improvised Lab</UniqueID>
+      <NativeName>Build Improvised Lab</NativeName>
+      <RecipeType>Toolbox</RecipeType>
+      <ShowRecipe>Always</ShowRecipe>
+      <SkillType>Construction</SkillType>
+      <SkillLevel>2</SkillLevel>
+      <SkillProgression>10</SkillProgression>
+      <ProductType>Improvised Lab</ProductType>
+      <CraftingTime>60</CraftingTime>
+      <Ingredients>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Microscope</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Chemistry Bottles</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Wood</string>
+          </PrototypeNames>
+          <Amount>3</Amount>
+        </Ingredient>
+      </Ingredients>
+    </Recipe>
+    <Recipe>
+      <UniqueID>Make Blue Antigen</UniqueID>
+      <NativeName>Make Blue Strain Antigen</NativeName>
+      <RecipeType>Workbench</RecipeType>
+      <ShowRecipe>IfImplementFound</ShowRecipe>
+      <CraftingStationType>Improvised Lab</CraftingStationType>
+      <SkillType>Medicine</SkillType>
+      <SkillLevel>5</SkillLevel>
+      <SkillProgression>0</SkillProgression>
+      <ProductPrototypeName>Antigen_Blue</ProductPrototypeName>
+      <CanPassInfectionToProduct>false</CanPassInfectionToProduct>
+      <CraftingTime>120</CraftingTime>
+      <Ingredients>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Chemicals</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Antigen_Green</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>RancidHumanMeat</string>
+            <string>HumanMeat</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+          <IngredientInfectionState>MustBeInfected</IngredientInfectionState>
+        </Ingredient>
+      </Ingredients>
+    </Recipe>
+    <Recipe>
+      <UniqueID>Make Green Antigen</UniqueID>
+      <NativeName>Make Green Strain Antigen</NativeName>
+      <RecipeType>Workbench</RecipeType>
+      <ShowRecipe>IfImplementFound</ShowRecipe>
+      <CraftingStationType>Improvised Lab</CraftingStationType>
+      <SkillType>Medicine</SkillType>
+      <SkillLevel>5</SkillLevel>
+      <SkillProgression>0</SkillProgression>
+      <ProductPrototypeName>Antigen_Green</ProductPrototypeName>
+      <CanPassInfectionToProduct>false</CanPassInfectionToProduct>
+      <CraftingTime>120</CraftingTime>
+      <Ingredients>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Chemicals</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>RancidHumanMeat</string>
+            <string>HumanMeat</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+          <IngredientInfectionState>MustBeInfected</IngredientInfectionState>
+        </Ingredient>
+      </Ingredients>
+    </Recipe>
+    <Recipe>
+      <UniqueID>Make Invisible Antigen</UniqueID>
+      <NativeName>Make Invisible Strain Antigen</NativeName>
+      <RecipeType>Workbench</RecipeType>
+      <ShowRecipe>IfImplementFound</ShowRecipe>
+      <CraftingStationType>Improvised Lab</CraftingStationType>
+      <SkillType>Medicine</SkillType>
+      <SkillLevel>5</SkillLevel>
+      <SkillProgression>0</SkillProgression>
+      <ProductPrototypeName>Crafted_Antigen_Invisible</ProductPrototypeName>
+      <CanPassInfectionToProduct>false</CanPassInfectionToProduct>
+      <CraftingTime>120</CraftingTime>
+      <Ingredients>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Chemicals</string>
+          </PrototypeNames>
+          <Amount>2</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Crafted_Antigen_White</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Antigen_Red</string>
+          </PrototypeNames>
+          <Amount>2</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Antigen_Blue</string>
+          </PrototypeNames>
+          <Amount>3</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Antigen_Green</string>
+          </PrototypeNames>
+          <Amount>4</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>RancidHumanMeat</string>
+            <string>HumanMeat</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+          <IngredientInfectionState>MustBeInfected</IngredientInfectionState>
+        </Ingredient>
+      </Ingredients>
+    </Recipe>
+    <Recipe>
+      <UniqueID>Make Red Antigen</UniqueID>
+      <NativeName>Make Red Strain Antigen</NativeName>
+      <RecipeType>Workbench</RecipeType>
+      <ShowRecipe>IfImplementFound</ShowRecipe>
+      <CraftingStationType>Improvised Lab</CraftingStationType>
+      <SkillType>Medicine</SkillType>
+      <SkillLevel>5</SkillLevel>
+      <SkillProgression>0</SkillProgression>
+      <ProductPrototypeName>Antigen_Red</ProductPrototypeName>
+      <CanPassInfectionToProduct>false</CanPassInfectionToProduct>
+      <CraftingTime>120</CraftingTime>
+      <Ingredients>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Chemicals</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Antigen_Blue</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Antigen_Green</string>
+          </PrototypeNames>
+          <Amount>2</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>RancidHumanMeat</string>
+            <string>HumanMeat</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+          <IngredientInfectionState>MustBeInfected</IngredientInfectionState>
+        </Ingredient>
+      </Ingredients>
+    </Recipe>
+    <Recipe>
+      <UniqueID>Make White Antigen</UniqueID>
+      <NativeName>Make White Strain Antigen</NativeName>
+      <RecipeType>Workbench</RecipeType>
+      <ShowRecipe>IfImplementFound</ShowRecipe>
+      <CraftingStationType>Improvised Lab</CraftingStationType>
+      <SkillType>Medicine</SkillType>
+      <SkillLevel>5</SkillLevel>
+      <SkillProgression>0</SkillProgression>
+      <ProductPrototypeName>Crafted_Antigen_White</ProductPrototypeName>
+      <CanPassInfectionToProduct>false</CanPassInfectionToProduct>
+      <CraftingTime>120</CraftingTime>
+      <Ingredients>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Chemicals</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Antigen_Blue</string>
+          </PrototypeNames>
+          <Amount>2</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Antigen_Red</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Antigen_Green</string>
+          </PrototypeNames>
+          <Amount>3</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>RancidHumanMeat</string>
+            <string>HumanMeat</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+          <IngredientInfectionState>MustBeInfected</IngredientInfectionState>
+        </Ingredient>
+      </Ingredients>
     </Recipe>
   </Recipes>
 </RecipeList>

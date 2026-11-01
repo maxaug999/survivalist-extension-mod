@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<EquipmentPrototype xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NativeName>Invisible Strain Antigen</NativeName>
+  <Category>3:Medical/Antigen/3</Category>
+  <Weight>0.01</Weight>
+  <BasePrice>460</BasePrice>
+  <CanBeEquipped>true</CanBeEquipped>
+  <AntigenType>Invisible</AntigenType>
+  <EquippedModelName>Prefabs/Equipment/Med Items Pack/Syringe</EquippedModelName>
+  <TradeBehaviour>CanSellToPlayer</TradeBehaviour>
+</EquipmentPrototype>

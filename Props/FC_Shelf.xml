@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <PropPrototype xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NativeName>Shelf</NativeName>
   <Category>Camp/Fri's-unlisted/Props</Category>
@@ -32,6 +32,10 @@
     <x>-1</x>
     <y>0</y>
   </ExtentsMin>
+  <ExtentsMax>
+    <x>0</x>
+    <y>0</y>
+  </ExtentsMax>
   <WantFlattenTerrain>true</WantFlattenTerrain>
   <CanBeDemolished>true</CanBeDemolished>
   <MaxInventoryWeight>1600</MaxInventoryWeight>

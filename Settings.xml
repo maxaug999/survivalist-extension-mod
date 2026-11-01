@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <StorySettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SteamWorkshopId>2891577257</SteamWorkshopId>
-  <NativeName>Fri's Camp and Stuff</NativeName>
+  <NativeName>Madmax Zedmulator Extended</NativeName>
   <NativeDescription>Contains buildable props, buildings and possibly weapons to support survivor camps.
 
 This used to be an unlisted release for compensation sudden deletions of my renewed models to the Towns and stuff way back. Since it feels very incomplete I was hesitant to release on public, while it still is incomplete I thought maybe this could be helpful for camps too.

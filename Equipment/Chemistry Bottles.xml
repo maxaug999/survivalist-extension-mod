@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<EquipmentPrototype xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NativeName>Chemistry Bottles</NativeName>
+  <Category>3:Medical</Category>
+  <Weight>5</Weight>
+  <BasePrice>90</BasePrice>
+  <Scarcity>Rare</Scarcity>
+  <LootableFromLocations>
+    <LootableFrom>
+      <Name>HardwareStore</Name>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>Scientific</Name>
+      <OverrideScarcity>Common</OverrideScarcity>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>FEMA</Name>
+      <OverrideScarcity>Uncommon</OverrideScarcity>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>Military</Name>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>Medical</Name>
+      <OverrideScarcity>Uncommon</OverrideScarcity>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>House</Name>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>Camp</Name>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>Survivor</Name>
+      <OverrideScarcity>VeryRare</OverrideScarcity>
+    </LootableFrom>
+  </LootableFromLocations>
+</EquipmentPrototype>
