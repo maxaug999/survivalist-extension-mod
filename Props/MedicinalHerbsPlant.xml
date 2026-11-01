@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PropPrototype xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TypeName>PlantableCrop</TypeName>
+  <NativeName>Medicinal Herbs</NativeName>
+  <Category>Crops</Category>
+  <PrefabNames>
+    <string>Prefabs\Props\Farm Plants\Plants\Soil</string>
+    <string>Prefabs\Props\Farm Plants\Plants\Cucumber\Cucumber_Stage1</string>
+    <string>Prefabs\Props\Farm Plants\Plants\Pepper\PepperPlant_Stage1</string>
+    <string>Prefabs\Props\Farm Plants\Plants\Pepper\PepperPlant_Stage2</string>
+  </PrefabNames>
+  <DeadPrefabNames>
+    <string>Prefabs\Props\Farm Plants\Plants\Soil</string>
+    <string>Prefabs\Props\Farm Plants\Plants\Cucumber\Cucumber_Stage1_Dead</string>
+    <string>Prefabs\Props\Farm Plants\Plants\Pepper\PepperPlant_Stage1_Dead</string>
+    <string>Prefabs\Props\Farm Plants\Plants\Pepper\PepperPlant_Stage2_Dead</string>
+  </DeadPrefabNames>
+  <Stage1PrefabNames />
+  <Stage2PrefabNames />
+  <MaterialVariationNames />
+  <ModelOffset>
+    <Vector3>
+      <x>0</x>
+      <y>0</y>
+      <z>0</z>
+    </Vector3>
+    <Vector3>
+      <x>0</x>
+      <y>0</y>
+      <z>0</z>
+    </Vector3>
+    <Vector3>
+      <x>0</x>
+      <y>0</y>
+      <z>0</z>
+    </Vector3>
+    <Vector3>
+      <x>0</x>
+      <y>0</y>
+      <z>0</z>
+    </Vector3>
+  </ModelOffset>
+  <MinMaxScale />
+  <MaxDamage>2</MaxDamage>
+  <CoverType>None</CoverType>
+  <Flammability>Medium_RequiresFuel</Flammability>
+  <BulletHitEffect>None</BulletHitEffect>
+  <WantDebrisOnDemolition>false</WantDebrisOnDemolition>
+  <WantSoundOnDemolition>false</WantSoundOnDemolition>
+  <Inhabitants>
+    <InhabitantSlotDef>
+      <External>false</External>
+      <Pos>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Pos>
+      <PipFocusDist>0</PipFocusDist>
+      <CamDist>0</CamDist>
+      <SightRangeModifier>0</SightRangeModifier>
+      <WeaponRangeModifier>0</WeaponRangeModifier>
+      <MinWeaponRange>0</MinWeaponRange>
+    </InhabitantSlotDef>
+  </Inhabitants>
+  <Entrances>
+    <EntranceDef>
+      <EntranceOffset>
+        <x>0</x>
+        <y>0</y>
+      </EntranceOffset>
+      <EntranceAngle>0</EntranceAngle>
+    </EntranceDef>
+  </Entrances>
+  <HarvestType>MedicinalHerbs</HarvestType>
+  <HarvestSeedsType>MedicinalHerbSeeds</HarvestSeedsType>
+  <MaxYield>5</MaxYield>
+  <MaxSeedsYield>3</MaxSeedsYield>
+  <WaterNeededPerDayInFlOz>50</WaterNeededPerDayInFlOz>
+  <Color>
+    <r>68</r>
+    <g>168</g>
+    <b>85</b>
+    <a>255</a>
+  </Color>
+</PropPrototype>

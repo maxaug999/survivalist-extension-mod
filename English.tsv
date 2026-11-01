@@ -120,4 +120,10 @@ RECIPE_Build RCPillbox	Build RC Pillbox
 RECIPE_Build RCtower	Build RC Watchtower
 RECIPE_Build RCWall	Build RC Wall
 RECIPE_Make RC	Make Reinforced Concrete
+PROP_MedicinalHerbsPlant	Medicinal Herbs
+DESC_MedicinalHerbsPlant	A cultivable patch of medicinal herbs. Requires regular watering to produce harvestable herbs and seeds.
+EQUIPMENT_MedicinalHerbs	Medicinal Herbs
+DESC_MedicinalHerbs	Freshly harvested medicinal herb leaves valued for their natural healing and active pharmacological properties.
+EQUIPMENT_MedicinalHerbSeeds	Medicinal Herb Seeds
+DESC_MedicinalHerbSeeds	Seeds of medicinal herbs. Can be planted into tilled soil to cultivate a harvestable crop.
 

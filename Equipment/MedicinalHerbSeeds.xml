@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EquipmentPrototype xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NativeName>Medicinal Herb Seeds</NativeName>
+  <NativeDescription>Seeds of medicinal herbs. Can be planted into tilled soil to cultivate a harvestable crop.</NativeDescription>
+  <Category>5:Food/Seeds</Category>
+  <Weight>0.05</Weight>
+  <BasePrice>0.2</BasePrice>
+  <CanBeEquipped>true</CanBeEquipped>
+  <SeedForPlantType>Medicinal Herbs</SeedForPlantType>
+  <Scarcity>Uncommon</Scarcity>
+  <LootableFromLocations>
+    <LootableFrom>
+      <Name>GardeningStore</Name>
+      <OverrideScarcity>Common</OverrideScarcity>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>Medical</Name>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>FEMA</Name>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>Camp</Name>
+      <OverrideScarcity>Rare</OverrideScarcity>
+    </LootableFrom>
+  </LootableFromLocations>
+  <TypicalLootAmount>4</TypicalLootAmount>
+  <TradeBehaviour>CanSellToPlayer</TradeBehaviour>
+</EquipmentPrototype>

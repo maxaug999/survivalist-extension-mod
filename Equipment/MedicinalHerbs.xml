@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EquipmentPrototype xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NativeName>Medicinal Herbs</NativeName>
+  <NativeDescription>Freshly harvested medicinal herb leaves valued for their natural healing and active pharmacological properties.</NativeDescription>
+  <Category>6:Crafting</Category>
+  <Weight>0.08</Weight>
+  <BasePrice>1.2</BasePrice>
+  <Scarcity>Uncommon</Scarcity>
+  <LootableFromLocations>
+    <LootableFrom>
+      <Name>GardeningStore</Name>
+      <OverrideScarcity>Common</OverrideScarcity>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>Medical</Name>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>Scientific</Name>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>Camp</Name>
+      <OverrideScarcity>Rare</OverrideScarcity>
+    </LootableFrom>
+  </LootableFromLocations>
+  <TypicalLootAmount>3</TypicalLootAmount>
+  <TradeBehaviour>CanSellToPlayer</TradeBehaviour>
+</EquipmentPrototype>
