@@ -1720,10 +1720,11 @@
     <Recipe>
       <UniqueID>Make Willow Bark Fragments</UniqueID>
       <NativeName>Make Willow Bark Fragments</NativeName>
-      <ShowRecipe>IfAnyIngredientsFound</ShowRecipe>
+      <RecipeType>Still</RecipeType>
+      <ShowRecipe>IfAnyIngredientsFoundAndHasSkill</ShowRecipe>
       <CraftingStationType>Still</CraftingStationType>
       <SkillType>Cooking</SkillType>
-      <SkillLevel>1</SkillLevel>
+      <SkillLevel>3</SkillLevel>
       <SkillProgression>10</SkillProgression>
       <ProductPrototypeName>WillowBarkFragments</ProductPrototypeName>
       <ProductAmount>3</ProductAmount>
@@ -1733,13 +1734,13 @@
           <PrototypeNames>
             <string>WillowBark</string>
           </PrototypeNames>
-          <Amount>1</Amount>
+          <Amount>2</Amount>
         </Ingredient>
         <Ingredient>
           <LiquidTypeNames>
             <string>Water</string>
           </LiquidTypeNames>
-          <LiquidAmount>25</LiquidAmount>
+          <LiquidAmount>50</LiquidAmount>
         </Ingredient>
       </Ingredients>
     </Recipe>
