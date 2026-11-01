@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <RecipeList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Recipes>
     <Recipe>
@@ -1354,6 +1354,114 @@
           <Amount>150</Amount>
         </Ingredient>
       </Ingredients>
+    </Recipe>
+    <Recipe>
+      <UniqueID>Make Sterile Bandage</UniqueID>
+      <NativeName>Sterilize</NativeName>
+      <ShowRecipe>IfAnyIngredientsFound</ShowRecipe>
+      <SkillType>Medicine</SkillType>
+      <SkillLevel>3</SkillLevel>
+      <SkillProgression>15</SkillProgression>
+      <ProductPrototypeName>Sterile Bandage</ProductPrototypeName>
+      <CraftingTime>2</CraftingTime>
+      <Ingredients>
+        <Ingredient>
+          <LiquidTypeNames>
+            <string>Vodka</string>
+          </LiquidTypeNames>
+          <LiquidAmount>6</LiquidAmount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Rag</string>
+          </PrototypeNames>
+          <Amount>2</Amount>
+        </Ingredient>
+      </Ingredients>
+    </Recipe>
+    <Recipe>
+      <UniqueID>Make Medical Kit</UniqueID>
+      <NativeName>Make Medical Kit</NativeName>
+      <ShowRecipe>IfAnyIngredientsFoundAndHasSkill</ShowRecipe>
+      <SkillType>Medicine</SkillType>
+      <SkillLevel>4</SkillLevel>
+      <SkillProgression>25</SkillProgression>
+      <ProductPrototypeName>Medical Kit</ProductPrototypeName>
+      <CraftingTime>30</CraftingTime>
+      <Ingredients>
+        <Ingredient>
+          <PrototypeNames>
+            <string>MedicalBook</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>First Aid Kit</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Hemostatic</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Sterile Bandage</string>
+          </PrototypeNames>
+          <Amount>2</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Analgesic</string>
+          </PrototypeNames>
+          <Amount>2</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Bloodpack</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Aspirin</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+        </Ingredient>
+      </Ingredients>
+    </Recipe>
+    <Recipe>
+      <UniqueID>Open First Aid Kit</UniqueID>
+      <NativeName>Open First Aid Kit</NativeName>
+      <ShowRecipe>Always</ShowRecipe>
+      <SkillType>Construction</SkillType>
+      <SkillProgression>10</SkillProgression>
+      <ProductPrototypeName>Sterile Bandage</ProductPrototypeName>
+      <ProductAmount>2</ProductAmount>
+      <ExtraOutputs>
+        <RecipeExtraOutput>
+          <ProductPrototypeName>Hemostatic</ProductPrototypeName>
+          <MinAmount>1</MinAmount>
+          <MaxAmount>1</MaxAmount>
+          <Probability>100</Probability>
+        </RecipeExtraOutput>
+      </ExtraOutputs>
+      <CraftingTime>0</CraftingTime>
+      <Ingredients />
+    </Recipe>
+    <Recipe>
+      <UniqueID>Open Hemostatic</UniqueID>
+      <NativeName>Open Hemostatic</NativeName>
+      <ShowRecipe>Always</ShowRecipe>
+      <SkillType>Invalid</SkillType>
+      <SkillProgression>10</SkillProgression>
+      <ProductPrototypeName>Analgesic</ProductPrototypeName>
+      <ProductAmount>5</ProductAmount>
+      <CraftingTime>0</CraftingTime>
+      <Ingredients />
     </Recipe>
   </Recipes>
 </RecipeList>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<EquipmentPrototype xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NativeName>Medical Kit</NativeName>
+  <NativeDescription>A must to survive, but hard to find or make these days</NativeDescription>
+  <Category>3:Medical</Category>
+  <SightRangeModifier>1</SightRangeModifier>
+  <Weight>5</Weight>
+  <BasePrice>320</BasePrice>
+  <CanBeEquipped>true</CanBeEquipped>
+  <Scarcity>Legendary</Scarcity>
+  <LootableFromLocations>
+    <LootableFrom>
+      <Name>House</Name>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>FEMA</Name>
+      <OverrideScarcity>VeryRare</OverrideScarcity>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>Medical</Name>
+      <OverrideScarcity>VeryRare</OverrideScarcity>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>UtilityVehicle</Name>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>Police</Name>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>Military</Name>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>Scientific</Name>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>PassengerPlane</Name>
+      <OverrideScarcity>VeryRare</OverrideScarcity>
+    </LootableFrom>
+  </LootableFromLocations>
+  <SkillBonusType>Medicine</SkillBonusType>
+  <SkillBonus>3</SkillBonus>
+</EquipmentPrototype>

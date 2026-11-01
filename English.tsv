@@ -63,3 +63,19 @@ RECIPE_FC_Make Sunflower Oil	Make Sunflower Oil
 RECIPE_FC_Make Throwingstone	Break into throwable chunks
 RECIPE_FC_Melt Coins	Melt Coins
 RECIPE_FC_Melt Coins x5	Melt Coins x5
+
+# --- Medical Kit merged entries ---
+EQUIPMENT_Analgesic	Analgesic
+DESC_Analgesic	
+EQUIPMENT_First Aid Kit	First Aid Kit
+DESC_First Aid Kit	
+EQUIPMENT_Hemostatic	Hemostatic
+DESC_Hemostatic	
+EQUIPMENT_Medical Kit	Medical Kit
+DESC_Medical Kit	
+EQUIPMENT_Sterile Bandage	Sterile Bandage
+DESC_Sterile Bandage	
+RECIPE_Make Sterile Bandage	Make Sterile Bandage
+RECIPE_Make Medical Kit	Make Medical Kit
+RECIPE_Open First Aid Kit	Open First Aid Kit
+RECIPE_Open Hemostatic	Open Hemostatic
