@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EquipmentPrototype xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NativeName>Willow Bark</NativeName>
+  <NativeDescription>Harvested inner bark of the willow tree, rich in natural salicin for brewing pain-relieving remedies.</NativeDescription>
+  <Category>6:Crafting</Category>
+  <Weight>0.2</Weight>
+  <BasePrice>1.5</BasePrice>
+  <Scarcity>Uncommon</Scarcity>
+  <LootableFromLocations>
+    <LootableFrom>
+      <Name>GardeningStore</Name>
+      <OverrideScarcity>Common</OverrideScarcity>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>Camp</Name>
+      <OverrideScarcity>Uncommon</OverrideScarcity>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>House</Name>
+      <OverrideScarcity>Rare</OverrideScarcity>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>Survivor</Name>
+      <OverrideScarcity>Rare</OverrideScarcity>
+    </LootableFrom>
+  </LootableFromLocations>
+  <TypicalLootAmount>2</TypicalLootAmount>
+  <TradeBehaviour>CanSellToPlayer</TradeBehaviour>
+</EquipmentPrototype>

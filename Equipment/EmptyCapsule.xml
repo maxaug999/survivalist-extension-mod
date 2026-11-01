@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EquipmentPrototype xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NativeName>Empty Capsule</NativeName>
+  <NativeDescription>Purified two-piece pharmaceutical capsule shell used for compounding pills and medicine.</NativeDescription>
+  <Category>6:Crafting</Category>
+  <Weight>0.01</Weight>
+  <BasePrice>0.5</BasePrice>
+  <Scarcity>Uncommon</Scarcity>
+  <LootableFromLocations>
+    <LootableFrom>
+      <Name>Medical</Name>
+      <OverrideScarcity>Uncommon</OverrideScarcity>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>Scientific</Name>
+      <OverrideScarcity>Uncommon</OverrideScarcity>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>Survivor</Name>
+      <OverrideScarcity>Rare</OverrideScarcity>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>House</Name>
+      <OverrideScarcity>Rare</OverrideScarcity>
+    </LootableFrom>
+  </LootableFromLocations>
+  <TypicalLootAmount>5</TypicalLootAmount>
+  <TradeBehaviour>CanSellToPlayer</TradeBehaviour>
+</EquipmentPrototype>

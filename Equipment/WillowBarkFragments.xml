@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EquipmentPrototype xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NativeName>Willow Bark Fragments</NativeName>
+  <NativeDescription>Dried, cut and sifted pieces of white willow bark. Ready for medicinal distillation and extraction of salicin.</NativeDescription>
+  <Category>6:Crafting</Category>
+  <Weight>0.05</Weight>
+  <BasePrice>0.75</BasePrice>
+  <Scarcity>Uncommon</Scarcity>
+  <LootableFromLocations>
+    <LootableFrom>
+      <Name>GardeningStore</Name>
+      <OverrideScarcity>Common</OverrideScarcity>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>Medical</Name>
+      <OverrideScarcity>Uncommon</OverrideScarcity>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>Scientific</Name>
+      <OverrideScarcity>Uncommon</OverrideScarcity>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>Camp</Name>
+      <OverrideScarcity>Rare</OverrideScarcity>
+    </LootableFrom>
+  </LootableFromLocations>
+  <TypicalLootAmount>3</TypicalLootAmount>
+  <TradeBehaviour>CanSellToPlayer</TradeBehaviour>
+</EquipmentPrototype>

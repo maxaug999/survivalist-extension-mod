@@ -100,3 +100,12 @@ RECIPE_Make Green Antigen	Make Green Strain Antigen
 RECIPE_Make Invisible Antigen	Make Invisible Strain Antigen
 RECIPE_Make Red Antigen	Make Red Strain Antigen
 RECIPE_Make White Antigen	Make White Strain Antigen
+EQUIPMENT_WillowBark	Willow Bark
+DESC_WillowBark	Harvested inner bark of the willow tree, rich in natural salicin for brewing pain-relieving remedies.
+EQUIPMENT_WillowBarkFragments	Willow Bark Fragments
+DESC_WillowBarkFragments	Dried, cut and sifted pieces of white willow bark. Ready for medicinal distillation and extraction of salicin.
+EQUIPMENT_EmptyCapsule	Empty Capsule
+DESC_EmptyCapsule	Purified two-piece pharmaceutical capsule shell used for compounding pills and medicine.
+RECIPE_Make Willow Bark Fragments	Make Willow Bark Fragments
+RECIPE_Make Empty Capsules	Make Empty Capsules
+RECIPE_Make Analgesic	Make Analgesic

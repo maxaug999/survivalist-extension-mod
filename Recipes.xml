@@ -1509,7 +1509,7 @@
         </Ingredient>
         <Ingredient>
           <PrototypeNames>
-            <string>RancidHumanMeat</string>
+            
             <string>HumanMeat</string>
           </PrototypeNames>
           <Amount>1</Amount>
@@ -1538,7 +1538,7 @@
         </Ingredient>
         <Ingredient>
           <PrototypeNames>
-            <string>RancidHumanMeat</string>
+            
             <string>HumanMeat</string>
           </PrototypeNames>
           <Amount>1</Amount>
@@ -1591,7 +1591,7 @@
         </Ingredient>
         <Ingredient>
           <PrototypeNames>
-            <string>RancidHumanMeat</string>
+            
             <string>HumanMeat</string>
           </PrototypeNames>
           <Amount>1</Amount>
@@ -1632,7 +1632,7 @@
         </Ingredient>
         <Ingredient>
           <PrototypeNames>
-            <string>RancidHumanMeat</string>
+            
             <string>HumanMeat</string>
           </PrototypeNames>
           <Amount>1</Amount>
@@ -1679,7 +1679,7 @@
         </Ingredient>
         <Ingredient>
           <PrototypeNames>
-            <string>RancidHumanMeat</string>
+            
             <string>HumanMeat</string>
           </PrototypeNames>
           <Amount>1</Amount>
@@ -1687,5 +1687,86 @@
         </Ingredient>
       </Ingredients>
     </Recipe>
-  </Recipes>
+  
+    
+    
+    <Recipe>
+      <UniqueID>Make Empty Capsules</UniqueID>
+      <NativeName>Make Empty Capsules</NativeName>
+      <ShowRecipe>IfAnyIngredientsFound</ShowRecipe>
+      <CraftingStationType>Improvised Lab</CraftingStationType>
+      <SkillType>Medicine</SkillType>
+      <SkillLevel>1</SkillLevel>
+      <SkillProgression>10</SkillProgression>
+      <ProductPrototypeName>EmptyCapsule</ProductPrototypeName>
+      <ProductAmount>5</ProductAmount>
+      <CraftingTime>30</CraftingTime>
+      <Ingredients>
+        <Ingredient>
+          <PrototypeNames>
+            <string>PlasticScrap</string>
+          </PrototypeNames>
+          <Amount>5</Amount>
+        </Ingredient>
+        <Ingredient>
+          <LiquidTypeNames>
+            <string>Vodka</string>
+          </LiquidTypeNames>
+          <LiquidAmount>5</LiquidAmount>
+        </Ingredient>
+      </Ingredients>
+    </Recipe>
+    
+    <Recipe>
+      <UniqueID>Make Willow Bark Fragments</UniqueID>
+      <NativeName>Make Willow Bark Fragments</NativeName>
+      <ShowRecipe>IfAnyIngredientsFound</ShowRecipe>
+      <CraftingStationType>Still</CraftingStationType>
+      <SkillType>Cooking</SkillType>
+      <SkillLevel>1</SkillLevel>
+      <SkillProgression>10</SkillProgression>
+      <ProductPrototypeName>WillowBarkFragments</ProductPrototypeName>
+      <ProductAmount>3</ProductAmount>
+      <CraftingTime>30</CraftingTime>
+      <Ingredients>
+        <Ingredient>
+          <PrototypeNames>
+            <string>WillowBark</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+        </Ingredient>
+        <Ingredient>
+          <LiquidTypeNames>
+            <string>Water</string>
+          </LiquidTypeNames>
+          <LiquidAmount>25</LiquidAmount>
+        </Ingredient>
+      </Ingredients>
+    </Recipe>
+    <Recipe>
+      <UniqueID>Make Analgesic</UniqueID>
+      <NativeName>Make Analgesic</NativeName>
+      <ShowRecipe>IfAnyIngredientsFoundAndHasSkill</ShowRecipe>
+      <CraftingStationType>Improvised Lab</CraftingStationType>
+      <SkillType>Medicine</SkillType>
+      <SkillLevel>2</SkillLevel>
+      <SkillProgression>15</SkillProgression>
+      <ProductPrototypeName>Analgesic</ProductPrototypeName>
+      <ProductAmount>2</ProductAmount>
+      <CraftingTime>20</CraftingTime>
+      <Ingredients>
+        <Ingredient>
+          <PrototypeNames>
+            <string>WillowBarkFragments</string>
+          </PrototypeNames>
+          <Amount>2</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>EmptyCapsule</string>
+          </PrototypeNames>
+          <Amount>2</Amount>
+        </Ingredient>
+      </Ingredients>
+    </Recipe></Recipes>
 </RecipeList>
