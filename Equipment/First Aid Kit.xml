@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <EquipmentPrototype xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NativeName>First Aid Kit</NativeName>
-  <NativeDescription>Best item to heal, but hard to find and produce at the lab. Healing level 20</NativeDescription>
+  <NativeDescription>Best item to heal, but hard to find and produce at the lab. Healing level 25</NativeDescription>
   <Category>3:Medical</Category>
   <Weight>3</Weight>
   <BasePrice>30</BasePrice>
   <CanBeEquipped>true</CanBeEquipped>
-  <BandageLevel>20</BandageLevel>
+  <BandageLevel>25</BandageLevel>
   <Scarcity>VeryRare</Scarcity>
   <LootableFromLocations>
     <LootableFrom>

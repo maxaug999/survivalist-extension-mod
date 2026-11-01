@@ -3,7 +3,7 @@
   <NativeName>Willow Bark</NativeName>
   <NativeDescription>Harvested inner bark of the willow tree, rich in natural salicin for brewing pain-relieving remedies.</NativeDescription>
   <Category>6:Crafting</Category>
-  <Weight>0.2</Weight>
+  <Weight>0.5</Weight>
   <BasePrice>1.5</BasePrice>
   <Scarcity>Uncommon</Scarcity>
   <LootableFromLocations>
@@ -13,15 +13,6 @@
     </LootableFrom>
     <LootableFrom>
       <Name>Camp</Name>
-      <OverrideScarcity>Uncommon</OverrideScarcity>
-    </LootableFrom>
-    <LootableFrom>
-      <Name>House</Name>
-      <OverrideScarcity>Rare</OverrideScarcity>
-    </LootableFrom>
-    <LootableFrom>
-      <Name>Survivor</Name>
-      <OverrideScarcity>Rare</OverrideScarcity>
     </LootableFrom>
   </LootableFromLocations>
   <TypicalLootAmount>2</TypicalLootAmount>

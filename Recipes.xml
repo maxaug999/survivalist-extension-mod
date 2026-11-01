@@ -1358,7 +1358,9 @@
     <Recipe>
       <UniqueID>Make Sterile Bandage</UniqueID>
       <NativeName>Sterilize</NativeName>
-      <ShowRecipe>IfAnyIngredientsFound</ShowRecipe>
+      <RecipeType>Workbench</RecipeType>
+      <ShowRecipe>IfAnyIngredientsFoundAndHasSkill</ShowRecipe>
+      <CraftingStationType>Improvised Lab</CraftingStationType>
       <SkillType>Medicine</SkillType>
       <SkillLevel>3</SkillLevel>
       <SkillProgression>15</SkillProgression>
@@ -1369,14 +1371,20 @@
           <LiquidTypeNames>
             <string>Vodka</string>
           </LiquidTypeNames>
-          <LiquidAmount>6</LiquidAmount>
+          <LiquidAmount>5</LiquidAmount>
         </Ingredient>
         <Ingredient>
           <PrototypeNames>
             <string>Rag</string>
           </PrototypeNames>
-          <Amount>2</Amount>
+          <Amount>1</Amount>
         </Ingredient>
+        <!-- <Ingredient>
+          <PrototypeNames>
+            <string>Antiseptic</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+        </Ingredient> -->
       </Ingredients>
     </Recipe>
     <Recipe>
@@ -1384,7 +1392,7 @@
       <NativeName>Make Medical Kit</NativeName>
       <ShowRecipe>IfAnyIngredientsFoundAndHasSkill</ShowRecipe>
       <SkillType>Medicine</SkillType>
-      <SkillLevel>4</SkillLevel>
+      <SkillLevel>5</SkillLevel>
       <SkillProgression>25</SkillProgression>
       <ProductPrototypeName>Medical Kit</ProductPrototypeName>
       <CraftingTime>30</CraftingTime>
@@ -1421,7 +1429,7 @@
         </Ingredient>
       </Ingredients>
     </Recipe>
-    <Recipe>
+    <!-- <Recipe>
       <UniqueID>Open First Aid Kit</UniqueID>
       <NativeName>Open First Aid Kit</NativeName>
       <ShowRecipe>Always</ShowRecipe>
@@ -1439,7 +1447,7 @@
       </ExtraOutputs>
       <CraftingTime>0</CraftingTime>
       <Ingredients />
-    </Recipe>
+    </Recipe> -->
     <Recipe>
       <UniqueID>Open Hemostatic</UniqueID>
       <NativeName>Open Hemostatic</NativeName>
@@ -1687,19 +1695,17 @@
         </Ingredient>
       </Ingredients>
     </Recipe>
-  
-    
-    
     <Recipe>
       <UniqueID>Make Empty Capsules</UniqueID>
       <NativeName>Make Empty Capsules</NativeName>
+      <RecipeType>Workbench</RecipeType>
       <ShowRecipe>IfAnyIngredientsFound</ShowRecipe>
       <CraftingStationType>Improvised Lab</CraftingStationType>
       <SkillType>Medicine</SkillType>
-      <SkillLevel>1</SkillLevel>
+      <SkillLevel>2</SkillLevel>
       <SkillProgression>10</SkillProgression>
       <ProductPrototypeName>EmptyCapsule</ProductPrototypeName>
-      <ProductAmount>5</ProductAmount>
+      <ProductAmount>1</ProductAmount>
       <CraftingTime>30</CraftingTime>
       <Ingredients>
         <Ingredient>
@@ -1712,21 +1718,20 @@
           <LiquidTypeNames>
             <string>Vodka</string>
           </LiquidTypeNames>
-          <LiquidAmount>5</LiquidAmount>
+          <LiquidAmount>2</LiquidAmount>
         </Ingredient>
       </Ingredients>
     </Recipe>
-    
     <Recipe>
-      <UniqueID>Make Willow Bark Fragments</UniqueID>
-      <NativeName>Make Willow Bark Fragments</NativeName>
+      <UniqueID>Make Willow Bark Extract</UniqueID>
+      <NativeName>Make Willow Bark Extract</NativeName>
       <RecipeType>Still</RecipeType>
       <ShowRecipe>IfAnyIngredientsFoundAndHasSkill</ShowRecipe>
       <CraftingStationType>Still</CraftingStationType>
       <SkillType>Cooking</SkillType>
       <SkillLevel>3</SkillLevel>
       <SkillProgression>10</SkillProgression>
-      <ProductPrototypeName>WillowBarkFragments</ProductPrototypeName>
+      <ProductPrototypeName>WillowBarkExtract</ProductPrototypeName>
       <ProductAmount>3</ProductAmount>
       <CraftingTime>30</CraftingTime>
       <Ingredients>
@@ -1747,10 +1752,11 @@
     <Recipe>
       <UniqueID>Make Analgesic</UniqueID>
       <NativeName>Make Analgesic</NativeName>
+      <RecipeType>Workbench</RecipeType>
       <ShowRecipe>IfAnyIngredientsFoundAndHasSkill</ShowRecipe>
       <CraftingStationType>Improvised Lab</CraftingStationType>
       <SkillType>Medicine</SkillType>
-      <SkillLevel>2</SkillLevel>
+      <SkillLevel>3</SkillLevel>
       <SkillProgression>15</SkillProgression>
       <ProductPrototypeName>Analgesic</ProductPrototypeName>
       <ProductAmount>2</ProductAmount>
@@ -1758,15 +1764,15 @@
       <Ingredients>
         <Ingredient>
           <PrototypeNames>
-            <string>WillowBarkFragments</string>
+            <string>WillowBarkExtract</string>
           </PrototypeNames>
-          <Amount>2</Amount>
+          <Amount>3</Amount>
         </Ingredient>
         <Ingredient>
           <PrototypeNames>
             <string>EmptyCapsule</string>
           </PrototypeNames>
-          <Amount>2</Amount>
+          <Amount>1</Amount>
         </Ingredient>
       </Ingredients>
     </Recipe>

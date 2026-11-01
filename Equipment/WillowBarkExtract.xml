@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <EquipmentPrototype xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <NativeName>Willow Bark Fragments</NativeName>
-  <NativeDescription>Dried, cut and sifted pieces of white willow bark. Ready for medicinal distillation and extraction of salicin.</NativeDescription>
+  <NativeName>Willow Bark Extract</NativeName>
+  <NativeDescription>Concentrated herbal extract derived from white willow bark, containing active salicin used to compound pain-relieving medication or the.</NativeDescription>
   <Category>6:Crafting</Category>
   <Weight>0.05</Weight>
   <BasePrice>0.75</BasePrice>
-  <Scarcity>Uncommon</Scarcity>
+  <Scarcity>Rare</Scarcity>
   <LootableFromLocations>
     <LootableFrom>
       <Name>GardeningStore</Name>
@@ -13,15 +13,12 @@
     </LootableFrom>
     <LootableFrom>
       <Name>Medical</Name>
-      <OverrideScarcity>Uncommon</OverrideScarcity>
     </LootableFrom>
     <LootableFrom>
       <Name>Scientific</Name>
-      <OverrideScarcity>Uncommon</OverrideScarcity>
     </LootableFrom>
     <LootableFrom>
       <Name>Camp</Name>
-      <OverrideScarcity>Rare</OverrideScarcity>
     </LootableFrom>
   </LootableFromLocations>
   <TypicalLootAmount>3</TypicalLootAmount>
