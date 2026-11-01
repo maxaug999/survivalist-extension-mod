@@ -93,8 +93,6 @@ EQUIPMENT_Crafted_Antigen_White	Crafted White Strain Antigen
 DESC_Crafted_Antigen_White	
 EQUIPMENT_Microscope	Microscope
 DESC_Microscope	
-EQUIPMENT_RancidHumanMeat	Rancid Human Meat
-DESC_RancidHumanMeat	Ew.  You can throw this to distract the infected, but even they'd prefer fresh meat.
 PROP_Improvised Lab	Improvised Lab
 RECIPE_Build Improvised Lab	Build Improvised Lab
 RECIPE_Make Blue Antigen	Make Blue Strain Antigen
