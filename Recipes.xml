@@ -1741,6 +1741,40 @@
       </Ingredients>
     </Recipe>
     <Recipe>
+      <UniqueID>Cook Tree Willow Bark</UniqueID>
+      <NativeName>Cook Tree Bark</NativeName>
+      <RecipeType>Campfire_Pot</RecipeType>
+      <ShowRecipe>IfAllIngredientsFound</ShowRecipe>
+      <CraftingStationType>Campfire</CraftingStationType>
+      <SkillType>Cooking</SkillType>
+      <SkillLevel>1</SkillLevel>
+      <SkillProgression>3</SkillProgression>
+      <ProductPrototypeName>Boiledbark</ProductPrototypeName>
+      <ProductAmount>3</ProductAmount>
+      <OnlyUseManually>true</OnlyUseManually>
+      <CraftingTime>30</CraftingTime>
+      <Ingredients>
+        <Ingredient>
+          <PrototypeNames>
+            <string>WillowBark</string>
+          </PrototypeNames>
+          <Amount>3</Amount>
+        </Ingredient>
+        <Ingredient>
+          <LiquidTypeNames>
+            <string>Water</string>
+          </LiquidTypeNames>
+          <LiquidAmount>50</LiquidAmount>
+        </Ingredient>
+        <Ingredient>
+          <LiquidTypeNames>
+            <string>Salt</string>
+          </LiquidTypeNames>
+          <LiquidAmount>1</LiquidAmount>
+        </Ingredient>
+      </Ingredients>
+    </Recipe>
+    <Recipe>
       <UniqueID>Make Willow Bark Extract</UniqueID>
       <NativeName>Make Willow Bark Extract</NativeName>
       <RecipeType>Still</RecipeType>
