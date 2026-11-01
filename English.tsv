@@ -126,4 +126,7 @@ EQUIPMENT_MedicinalHerbs	Medicinal Herbs
 DESC_MedicinalHerbs	Freshly harvested medicinal herb leaves valued for their natural healing and active pharmacological properties.
 EQUIPMENT_MedicinalHerbSeeds	Medicinal Herb Seeds
 DESC_MedicinalHerbSeeds	Seeds of medicinal herbs. Can be planted into tilled soil to cultivate a harvestable crop.
+EQUIPMENT_MedicinalHerbSeedPack	Medicinal Herb Seed Pack
+DESC_MedicinalHerbSeedPack	A sealed pack of medicinal herb seeds. Open to obtain seeds for planting.
+RECIPE_Open Medicinal Herb Seed Pack	Open Medicinal Herb Seed Pack
 

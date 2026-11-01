@@ -1460,6 +1460,24 @@
       <Ingredients />
     </Recipe>
     <Recipe>
+      <UniqueID>Open Medicinal Herb Seed Pack</UniqueID>
+      <NativeName>Open Medicinal Herb Seed Pack</NativeName>
+      <ShowRecipe>IfAllIngredientsFound</ShowRecipe>
+      <SkillType>Construction</SkillType>
+      <SkillProgression>0</SkillProgression>
+      <ProductPrototypeName>MedicinalHerbSeeds</ProductPrototypeName>
+      <ProductAmount>24</ProductAmount>
+      <CraftingTime>3</CraftingTime>
+      <Ingredients>
+        <Ingredient>
+          <PrototypeNames>
+            <string>MedicinalHerbSeedPack</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+        </Ingredient>
+      </Ingredients>
+    </Recipe>
+    <Recipe>
       <UniqueID>Build Improvised Lab</UniqueID>
       <NativeName>Build Improvised Lab</NativeName>
       <RecipeType>Toolbox</RecipeType>
