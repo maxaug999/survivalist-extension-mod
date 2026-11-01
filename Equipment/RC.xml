@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<EquipmentPrototype xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NativeName>Reinforced Concrete</NativeName>
+  <Category>6:Crafting</Category>
+  <Weight>50</Weight>
+  <BasePrice>4</BasePrice>
+  <CanSurviveBuildingCollapse>true</CanSurviveBuildingCollapse>
+  <Scarcity>Rare</Scarcity>
+  <LootableFromLocations>
+    <LootableFrom>
+      <Name>House</Name>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>Camp</Name>
+    </LootableFrom>
+  </LootableFromLocations>
+  <TypicalLootAmount>30</TypicalLootAmount>
+</EquipmentPrototype>

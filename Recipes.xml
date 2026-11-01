@@ -1769,5 +1769,89 @@
           <Amount>2</Amount>
         </Ingredient>
       </Ingredients>
-    </Recipe></Recipes>
+    </Recipe>
+    <Recipe>
+      <UniqueID>Build RCPillbox</UniqueID>
+      <NativeName>Build RC Pillbox</NativeName>
+      <RecipeType>Toolbox</RecipeType>
+      <ShowRecipe>Always</ShowRecipe>
+      <SkillType>Construction</SkillType>
+      <SkillLevel>5</SkillLevel>
+      <SkillProgression>180</SkillProgression>
+      <ProductType>RCPillbox</ProductType>
+      <CraftingTime>320</CraftingTime>
+      <Ingredients>
+        <Ingredient>
+          <PrototypeNames>
+            <string>RC</string>
+          </PrototypeNames>
+          <Amount>8</Amount>
+        </Ingredient>
+      </Ingredients>
+    </Recipe>
+    <Recipe>
+      <UniqueID>Build RCtower</UniqueID>
+      <NativeName>Build RC Watchtower</NativeName>
+      <RecipeType>Toolbox</RecipeType>
+      <ShowRecipe>Always</ShowRecipe>
+      <SkillType>Construction</SkillType>
+      <SkillLevel>5</SkillLevel>
+      <SkillProgression>240</SkillProgression>
+      <ProductType>RCTower</ProductType>
+      <CraftingTime>480</CraftingTime>
+      <Ingredients>
+        <Ingredient>
+          <PrototypeNames>
+            <string>RC</string>
+          </PrototypeNames>
+          <Amount>12</Amount>
+        </Ingredient>
+      </Ingredients>
+    </Recipe>
+    <Recipe>
+      <UniqueID>Build RCWall</UniqueID>
+      <NativeName>Build RC Wall</NativeName>
+      <RecipeType>Toolbox</RecipeType>
+      <ShowRecipe>Always</ShowRecipe>
+      <SkillType>Construction</SkillType>
+      <SkillLevel>5</SkillLevel>
+      <SkillProgression>30</SkillProgression>
+      <ProductType>RCWall</ProductType>
+      <CraftingTime>20</CraftingTime>
+      <Ingredients>
+        <Ingredient>
+          <PrototypeNames>
+            <string>RC</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+        </Ingredient>
+      </Ingredients>
+    </Recipe>
+    <Recipe>
+      <UniqueID>Make RC</UniqueID>
+      <NativeName>Make RC</NativeName>
+      <RecipeType>Kiln</RecipeType>
+      <ShowRecipe>Always</ShowRecipe>
+      <CraftingStationType>Kiln</CraftingStationType>
+      <SkillType>Construction</SkillType>
+      <SkillLevel>5</SkillLevel>
+      <SkillProgression>50</SkillProgression>
+      <ProductPrototypeName>RC</ProductPrototypeName>
+      <CraftingTime>360</CraftingTime>
+      <Ingredients>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Cement</string>
+          </PrototypeNames>
+          <Amount>2</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>ChickenWire</string>
+          </PrototypeNames>
+          <Amount>2</Amount>
+        </Ingredient>
+      </Ingredients>
+    </Recipe>
+  </Recipes>
 </RecipeList>

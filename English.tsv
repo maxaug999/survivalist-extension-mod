@@ -109,3 +109,15 @@ DESC_EmptyCapsule	Purified two-piece pharmaceutical capsule shell used for compo
 RECIPE_Make Willow Bark Fragments	Make Willow Bark Fragments
 RECIPE_Make Empty Capsules	Make Empty Capsules
 RECIPE_Make Analgesic	Make Analgesic
+EQUIPMENT_RC	Reinforced Concrete
+DESC_RC	A heavy block of concrete reinforced with embedded chicken wire mesh, providing immense structural durability against collapse.
+PROP_RCPillbox	RC Pillbox
+PROP_ RC Pillbox	RC Pillbox
+PROP_RCTower	RC Watchtower
+PROP_RCWall	RC Wall
+ENTRANCE_Front	Front
+RECIPE_Build RCPillbox	Build RC Pillbox
+RECIPE_Build RCtower	Build RC Watchtower
+RECIPE_Build RCWall	Build RC Wall
+RECIPE_Make RC	Make Reinforced Concrete
+
