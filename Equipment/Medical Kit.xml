@@ -6,7 +6,7 @@
   <SightRangeModifier>1</SightRangeModifier>
   <Weight>5</Weight>
   <BasePrice>320</BasePrice>
-  <CanBeEquipped>true</CanBeEquipped>
+  <CanBeEquipped>false</CanBeEquipped>
   <Scarcity>Legendary</Scarcity>
   <LootableFromLocations>
     <LootableFrom>

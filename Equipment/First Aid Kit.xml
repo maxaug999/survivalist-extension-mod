@@ -5,7 +5,7 @@
   <Category>3:Medical</Category>
   <Weight>3</Weight>
   <BasePrice>30</BasePrice>
-  <CanBeEquipped>true</CanBeEquipped>
+  <CanBeEquipped>false</CanBeEquipped>
   <BandageLevel>25</BandageLevel>
   <Scarcity>VeryRare</Scarcity>
   <LootableFromLocations>

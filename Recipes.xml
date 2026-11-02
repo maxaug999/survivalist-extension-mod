@@ -312,12 +312,6 @@
       <Ingredients>
         <Ingredient>
           <PrototypeNames>
-            <string>Charcoal</string>
-          </PrototypeNames>
-          <Amount>1</Amount>
-        </Ingredient>
-        <Ingredient>
-          <PrototypeNames>
             <string>Flint</string>
           </PrototypeNames>
           <Amount>1</Amount>

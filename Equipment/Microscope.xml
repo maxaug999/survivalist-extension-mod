@@ -28,9 +28,11 @@
     </LootableFrom>
     <LootableFrom>
       <Name>House</Name>
+      <OverrideScarcity>VeryRare</OverrideScarcity>
     </LootableFrom>
     <LootableFrom>
       <Name>Camp</Name>
+      <OverrideScarcity>VeryRare</OverrideScarcity>
     </LootableFrom>
     <LootableFrom>
       <Name>Survivor</Name>

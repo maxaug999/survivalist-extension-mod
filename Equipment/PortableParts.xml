@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <EquipmentPrototype xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NativeName>Portable Parts</NativeName>
-  <NativeDescription>Used for making Plastic Toilets</NativeDescription>
+  <NativeDescription>Used for making Portable Toilets</NativeDescription>
   <Category>6:Crafting</Category>
   <Weight>12</Weight>
   <BasePrice>25</BasePrice>
