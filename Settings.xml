@@ -154,6 +154,21 @@ Known issues:
       <Amount>3</Amount>
       <Points>1</Points>
     </StartingEquipment>
+    <StartingEquipment>
+      <Name>HerbPowder</Name>
+      <Amount>4</Amount>
+      <Points>1</Points>
+    </StartingEquipment>
+    <StartingEquipment>
+      <Name>Antiseptic</Name>
+      <Amount>2</Amount>
+      <Points>1</Points>
+    </StartingEquipment>
+    <StartingEquipment>
+      <Name>CoagulantPowder</Name>
+      <Amount>2</Amount>
+      <Points>2</Points>
+    </StartingEquipment>
   </StartingEquipmentOptions>
   <Loadouts />
   <DifficultySettings />

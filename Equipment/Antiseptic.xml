@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EquipmentPrototype xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NativeName>Antiseptic</NativeName>
+  <NativeDescription>Purified medical antiseptic synthesized from herbal powder. Cleans and sterilizes wounds to prevent and treat infection.</NativeDescription>
+  <Category>3:Medical</Category>
+  <Weight>0.1</Weight>
+  <BasePrice>12</BasePrice>
+  <CanBeEquipped>true</CanBeEquipped>
+  <BandageLevel>3</BandageLevel>
+  <Scarcity>Rare</Scarcity>
+  <LootableFromLocations>
+    <LootableFrom>
+      <Name>Medical</Name>
+      <OverrideScarcity>Common</OverrideScarcity>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>FEMA</Name>
+      <OverrideScarcity>Uncommon</OverrideScarcity>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>Scientific</Name>
+      <OverrideScarcity>Uncommon</OverrideScarcity>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>House</Name>
+      <OverrideScarcity>Rare</OverrideScarcity>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>Survivor</Name>
+      <OverrideScarcity>Rare</OverrideScarcity>
+    </LootableFrom>
+  </LootableFromLocations>
+  <TypicalLootAmount>2</TypicalLootAmount>
+  <TradeBehaviour>CanSellToPlayer</TradeBehaviour>
+</EquipmentPrototype>

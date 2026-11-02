@@ -131,3 +131,15 @@ DESC_MedicinalHerbSeedPack	A sealed pack of medicinal herb seeds. Open to obtain
 RECIPE_Open Medicinal Herb Seed Pack	Open Medicinal Herb Seed Pack
 RECIPE_Cook Tree Willow Bark	Cook Tree Bark
 
+EQUIPMENT_HerbPowder	Herb Powder
+DESC_HerbPowder	Fine herbal powder ground and distilled from medicinal herb plants. A potent base for compounding pharmaceutical tinctures and antiseptics.
+EQUIPMENT_Antiseptic	Antiseptic
+DESC_Antiseptic	Purified medical antiseptic synthesized from herbal powder. Cleans and sterilizes wounds to prevent and treat infection.
+EQUIPMENT_CoagulantPowder	Coagulant Powder
+DESC_CoagulantPowder	Styptic powder applied directly to heavy hemorrhages to rapidly induce clotting and seal bleeding. Primary ingredient for hemostatic capsules.
+RECIPE_Distill Herb Powder	Distill Herb Powder
+RECIPE_Make Antiseptic	Make Antiseptic
+RECIPE_Make Coagulant Powder	Make Coagulant Powder
+RECIPE_Make Hemostatic	Make Hemostatic
+RECIPE_Sterilize with Antiseptic	Sterilize Bandage
+RECIPE_Sterilize Bandage with Antiseptic	Sterilize Bandage

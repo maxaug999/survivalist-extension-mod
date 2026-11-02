@@ -1823,6 +1823,166 @@
       </Ingredients>
     </Recipe>
     <Recipe>
+      <UniqueID>Distill Herb Powder</UniqueID>
+      <NativeName>Distill Herb Powder</NativeName>
+      <RecipeType>Still</RecipeType>
+      <ShowRecipe>IfAnyIngredientsFoundAndHasSkill</ShowRecipe>
+      <CraftingStationType>Still</CraftingStationType>
+      <SkillType>Cooking</SkillType>
+      <SkillLevel>2</SkillLevel>
+      <SkillProgression>5</SkillProgression>
+      <ProductPrototypeName>HerbPowder</ProductPrototypeName>
+      <ProductAmount>2</ProductAmount>
+      <CraftingTime>45</CraftingTime>
+      <Ingredients>
+        <Ingredient>
+          <PrototypeNames>
+            <string>MedicinalHerbs</string>
+          </PrototypeNames>
+          <Amount>2</Amount>
+        </Ingredient>
+      </Ingredients>
+    </Recipe>
+    <Recipe>
+      <UniqueID>Make Antiseptic</UniqueID>
+      <NativeName>Make Antiseptic</NativeName>
+      <RecipeType>Workbench</RecipeType>
+      <ShowRecipe>IfAnyIngredientsFoundAndHasSkill</ShowRecipe>
+      <CraftingStationType>Improvised Lab</CraftingStationType>
+      <SkillType>Medicine</SkillType>
+      <SkillLevel>2</SkillLevel>
+      <SkillProgression>10</SkillProgression>
+      <ProductPrototypeName>Antiseptic</ProductPrototypeName>
+      <ProductAmount>2</ProductAmount>
+      <CraftingTime>50</CraftingTime>
+      <Ingredients>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Chemicals</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>HerbPowder</string>
+          </PrototypeNames>
+          <Amount>2</Amount>
+        </Ingredient>
+      </Ingredients>
+    </Recipe>
+    <Recipe>
+      <UniqueID>Make Coagulant Powder</UniqueID>
+      <NativeName>Make Coagulant Powder</NativeName>
+      <RecipeType>Workbench</RecipeType>
+      <ShowRecipe>IfAnyIngredientsFoundAndHasSkill</ShowRecipe>
+      <CraftingStationType>Improvised Lab</CraftingStationType>
+      <SkillType>Medicine</SkillType>
+      <SkillLevel>3</SkillLevel>
+      <SkillProgression>15</SkillProgression>
+      <ProductPrototypeName>CoagulantPowder</ProductPrototypeName>
+      <ProductAmount>2</ProductAmount>
+      <CraftingTime>30</CraftingTime>
+      <Ingredients>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Chemicals</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>EmptyCapsule</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Antiseptic</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+        </Ingredient>
+      </Ingredients>
+    </Recipe>
+    <Recipe>
+      <UniqueID>Make Hemostatic</UniqueID>
+      <NativeName>Make Hemostatic</NativeName>
+      <RecipeType>Workbench</RecipeType>
+      <ShowRecipe>IfAnyIngredientsFoundAndHasSkill</ShowRecipe>
+      <CraftingStationType>Improvised Lab</CraftingStationType>
+      <SkillType>Medicine</SkillType>
+      <SkillLevel>3</SkillLevel>
+      <SkillProgression>15</SkillProgression>
+      <ProductPrototypeName>Hemostatic</ProductPrototypeName>
+      <ProductAmount>2</ProductAmount>
+      <CraftingTime>60</CraftingTime>
+      <Ingredients>
+        <Ingredient>
+          <PrototypeNames>
+            <string>CoagulantPowder</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>EmptyCapsule</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+        </Ingredient>
+      </Ingredients>
+    </Recipe>
+    <Recipe>
+      <UniqueID>Sterilize with Antiseptic</UniqueID>
+      <NativeName>Sterilize Bandage</NativeName>
+      <RecipeType>Workbench</RecipeType>
+      <ShowRecipe>IfAnyIngredientsFoundAndHasSkill</ShowRecipe>
+      <CraftingStationType>Improvised Lab</CraftingStationType>
+      <SkillType>Medicine</SkillType>
+      <SkillLevel>2</SkillLevel>
+      <SkillProgression>10</SkillProgression>
+      <ProductPrototypeName>Sterile Bandage</ProductPrototypeName>
+      <CraftingTime>20</CraftingTime>
+      <Ingredients>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Antiseptic</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Rag</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+        </Ingredient>
+      </Ingredients>
+    </Recipe>
+    <Recipe>
+      <UniqueID>Sterilize Bandage with Antiseptic</UniqueID>
+      <NativeName>Sterilize Bandage</NativeName>
+      <RecipeType>Workbench</RecipeType>
+      <ShowRecipe>IfAnyIngredientsFoundAndHasSkill</ShowRecipe>
+      <CraftingStationType>Improvised Lab</CraftingStationType>
+      <SkillType>Medicine</SkillType>
+      <SkillLevel>2</SkillLevel>
+      <SkillProgression>10</SkillProgression>
+      <ProductPrototypeName>Sterile Bandage</ProductPrototypeName>
+      <CraftingTime>10</CraftingTime>
+      <Ingredients>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Antiseptic</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Bandage</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+        </Ingredient>
+      </Ingredients>
+    </Recipe>
+    <Recipe>
       <UniqueID>Build RCPillbox</UniqueID>
       <NativeName>Build RC Pillbox</NativeName>
       <RecipeType>Toolbox</RecipeType>
