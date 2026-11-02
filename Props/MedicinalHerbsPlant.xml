@@ -71,6 +71,7 @@
       <EntranceAngle>0</EntranceAngle>
     </EntranceDef>
   </Entrances>
+  <CaptureResourceType>MedicinalHerbSeeds</CaptureResourceType>
   <HarvestType>MedicinalHerbs</HarvestType>
   <HarvestSeedsType>MedicinalHerbSeeds</HarvestSeedsType>
   <MaxYield>5</MaxYield>

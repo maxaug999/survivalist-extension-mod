@@ -6,12 +6,12 @@
   <Weight>0.05</Weight>
   <BasePrice>0.2</BasePrice>
   <CanBeEquipped>true</CanBeEquipped>
-  <SeedForPlantType>Medicinal Herbs</SeedForPlantType>
-  <Scarcity>Uncommon</Scarcity>
+  <SeedForPlantType>MedicinalHerbsPlant</SeedForPlantType>
+  <Scarcity>Rare</Scarcity>
   <LootableFromLocations>
     <LootableFrom>
       <Name>GardeningStore</Name>
-      <OverrideScarcity>Common</OverrideScarcity>
+      <OverrideScarcity>Uncommon</OverrideScarcity>
     </LootableFrom>
     <LootableFrom>
       <Name>Medical</Name>
@@ -21,7 +21,6 @@
     </LootableFrom>
     <LootableFrom>
       <Name>Camp</Name>
-      <OverrideScarcity>Rare</OverrideScarcity>
     </LootableFrom>
   </LootableFromLocations>
   <TypicalLootAmount>4</TypicalLootAmount>
