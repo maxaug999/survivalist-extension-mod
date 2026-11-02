@@ -1790,7 +1790,7 @@
       <SkillLevel>2</SkillLevel>
       <SkillProgression>5</SkillProgression>
       <ProductPrototypeName>HerbPowder</ProductPrototypeName>
-      <ProductAmount>2</ProductAmount>
+      <ProductAmount>1</ProductAmount>
       <CraftingTime>45</CraftingTime>
       <Ingredients>
         <Ingredient>
@@ -1824,7 +1824,7 @@
           <PrototypeNames>
             <string>HerbPowder</string>
           </PrototypeNames>
-          <Amount>2</Amount>
+          <Amount>1</Amount>
         </Ingredient>
         <Ingredient>
           <PrototypeNames>
@@ -1951,11 +1951,11 @@
       </Ingredients>
     </Recipe>
     <Recipe>
-      <UniqueID>Make Chemicals</UniqueID>
-      <NativeName>Make Chemicals</NativeName>
-      <RecipeType>Workbench</RecipeType>
+      <UniqueID>Distill Chemicals</UniqueID>
+      <NativeName>Distill Chemicals</NativeName>
+      <RecipeType>Still</RecipeType>
       <ShowRecipe>IfAnyIngredientsFoundAndHasSkill</ShowRecipe>
-      <CraftingStationType>Improvised Lab</CraftingStationType>
+      <CraftingStationType>Still</CraftingStationType>
       <SkillType>Medicine</SkillType>
       <SkillLevel>4</SkillLevel>
       <SkillProgression>20</SkillProgression>
@@ -1984,6 +1984,7 @@
         <Ingredient>
           <LiquidTypeNames>
             <string>Kerosene</string>
+            <string>Gasoline</string>
           </LiquidTypeNames>
           <LiquidAmount>5</LiquidAmount>
         </Ingredient>
@@ -2006,7 +2007,13 @@
           <PrototypeNames>
             <string>PlasticScrap</string>
           </PrototypeNames>
-          <Amount>50</Amount>
+          <Amount>40</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Charcoal</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
         </Ingredient>
         <Ingredient>
           <LiquidTypeNames>
@@ -2019,6 +2026,80 @@
             <string>Water</string>
           </LiquidTypeNames>
           <LiquidAmount>25</LiquidAmount>
+        </Ingredient>
+      </Ingredients>
+    </Recipe>
+    <Recipe>
+      <UniqueID>Refine Chemicals from Fuel</UniqueID>
+      <NativeName>Refine Chemicals</NativeName>
+      <RecipeType>Workbench</RecipeType>
+      <ShowRecipe>IfAnyIngredientsFoundAndHasSkill</ShowRecipe>
+      <CraftingStationType>Improvised Lab</CraftingStationType>
+      <SkillType>Medicine</SkillType>
+      <SkillLevel>5</SkillLevel>
+      <SkillProgression>20</SkillProgression>
+      <ProductLiquidPrototypeName>Chemicals</ProductLiquidPrototypeName>
+      <ProductLiquidAmount>50</ProductLiquidAmount>
+      <CraftingTime>560</CraftingTime>
+      <Ingredients>
+        <Ingredient>
+          <LiquidTypeNames>
+            <string>Gasoline</string>
+            <string>Kerosene</string>
+          </LiquidTypeNames>
+          <LiquidAmount>30</LiquidAmount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Charcoal</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+        </Ingredient>
+        <Ingredient>
+          <LiquidTypeNames>
+            <string>Water</string>
+          </LiquidTypeNames>
+          <LiquidAmount>15</LiquidAmount>
+        </Ingredient>
+      </Ingredients>
+    </Recipe>
+    <Recipe>
+      <UniqueID>Synthesize Chemicals from Corn</UniqueID>
+      <NativeName>Synthesize Chemicals from Crops</NativeName>
+      <RecipeType>Workbench</RecipeType>
+      <ShowRecipe>IfAnyIngredientsFoundAndHasSkill</ShowRecipe>
+      <CraftingStationType>Improvised Lab</CraftingStationType>
+      <SkillType>Medicine</SkillType>
+      <SkillLevel>5</SkillLevel>
+      <SkillProgression>20</SkillProgression>
+      <ProductLiquidPrototypeName>Chemicals</ProductLiquidPrototypeName>
+      <ProductLiquidAmount>50</ProductLiquidAmount>
+      <CraftingTime>560</CraftingTime>
+      <Ingredients>
+        <Ingredient>
+          <PrototypeNames>
+            <string>EarOfCorn</string>
+          </PrototypeNames>
+          <Amount>8</Amount>
+        </Ingredient>
+        <Ingredient>
+          <LiquidTypeNames>
+            <string>VegetableOil</string>
+          </LiquidTypeNames>
+          <LiquidAmount>5</LiquidAmount>
+        </Ingredient>
+        <Ingredient>
+          <LiquidTypeNames>
+            <string>Water</string>
+          </LiquidTypeNames>
+          <LiquidAmount>15</LiquidAmount>
+        </Ingredient>
+        <Ingredient>
+          <LiquidTypeNames>
+            <string>Vodka</string>
+            <string>Gasoline</string>
+          </LiquidTypeNames>
+          <LiquidAmount>5</LiquidAmount>
         </Ingredient>
       </Ingredients>
     </Recipe>

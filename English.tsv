@@ -144,5 +144,7 @@ RECIPE_Make Hemostatic	Make Hemostatic
 RECIPE_Sterilize with Antiseptic	Sterilize Bandage
 RECIPE_Sterilize Bandage with Antiseptic	Sterilize Bandage
 LIQUID_Chemicals	Chemicals
-RECIPE_Make Chemicals	Make Chemicals
-RECIPE_Synthesize Chemicals from Plastic	Synthesize Chemicals
+RECIPE_Distill Chemicals	Distill Chemicals
+RECIPE_Synthesize Chemicals from Plastic	Synthesize Chemicals from Plastics
+RECIPE_Refine Chemicals from Fuel	Refine Chemicals
+RECIPE_Synthesize Chemicals from Corn	Synthesize Chemicals from Crops
