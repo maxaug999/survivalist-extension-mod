@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <EquipmentPrototype xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NativeName>Herb Powder</NativeName>
-  <NativeDescription>Fine herbal powder ground and distilled from medicinal herb plants. A potent base for compounding pharmaceutical tinctures and antiseptics.</NativeDescription>
+  <NativeDescription>Fine herbal powder ground and distilled from medicinal herb plants. A potent base for compounding pharmaceutical tinctures and antiseptics. Healing level 2</NativeDescription>
   <Category>6:Crafting</Category>
   <Weight>0.05</Weight>
-  <BandageLevel>3</BandageLevel>
+  <BandageLevel>2</BandageLevel>
   <BasePrice>2.25</BasePrice>
   <Scarcity>Uncommon</Scarcity>
   <LootableFromLocations>

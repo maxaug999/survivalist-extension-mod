@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <EquipmentPrototype xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NativeName>Sterile Bandage</NativeName>
-  <NativeDescription>Bandage can be upgraded into a quality Sterile Bandage, at the lab. Healing level 10</NativeDescription>
+  <NativeDescription>Bandage can be upgraded into a quality Sterile Bandage, at the lab. Healing level 11</NativeDescription>
   <Category>3:Medical</Category>
   <Weight>0.2</Weight>
   <BasePrice>9</BasePrice>
   <CanBeEquipped>true</CanBeEquipped>
-  <BandageLevel>10</BandageLevel>
+  <BandageLevel>11</BandageLevel>
   <Scarcity>Rare</Scarcity>
   <LootableFromLocations>
     <LootableFrom>

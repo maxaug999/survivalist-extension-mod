@@ -4,9 +4,9 @@
   <NativeDescription>Purified medical antiseptic synthesized from herbal powder. Cleans and sterilizes wounds to prevent and treat infection.</NativeDescription>
   <Category>3:Medical</Category>
   <Weight>0.1</Weight>
-  <BasePrice>12</BasePrice>
+  <BasePrice>6</BasePrice>
   <CanBeEquipped>true</CanBeEquipped>
-  <BandageLevel>3</BandageLevel>
+  <BandageLevel>4</BandageLevel>
   <Scarcity>Rare</Scarcity>
   <LootableFromLocations>
     <LootableFrom>

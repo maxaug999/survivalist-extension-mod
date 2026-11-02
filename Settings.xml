@@ -164,11 +164,13 @@ Known issues:
       <Amount>2</Amount>
       <Points>1</Points>
     </StartingEquipment>
+    <!-- Coagulant Powder (Commented out for now)
     <StartingEquipment>
       <Name>CoagulantPowder</Name>
       <Amount>2</Amount>
       <Points>2</Points>
     </StartingEquipment>
+    -->
   </StartingEquipmentOptions>
   <Loadouts />
   <DifficultySettings />

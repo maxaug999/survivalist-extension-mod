@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Coagulant Powder (Commented out for now)
 <EquipmentPrototype xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NativeName>Coagulant Powder</NativeName>
   <NativeDescription>Styptic powder applied directly to heavy hemorrhages to rapidly induce clotting and seal bleeding. Primary ingredient for hemostatic capsules.</NativeDescription>
   <Category>3:Medical</Category>
   <Weight>0.1</Weight>
-  <BasePrice>24</BasePrice>
+  <BasePrice>7</BasePrice>
   <CanBeEquipped>true</CanBeEquipped>
   <BandageLevel>8</BandageLevel>
   <Scarcity>Rare</Scarcity>
@@ -33,3 +34,4 @@
   <TypicalLootAmount>2</TypicalLootAmount>
   <TradeBehaviour>CanSellToPlayer</TradeBehaviour>
 </EquipmentPrototype>
+-->

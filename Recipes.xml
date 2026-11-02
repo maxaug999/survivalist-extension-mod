@@ -1350,38 +1350,6 @@
       </Ingredients>
     </Recipe>
     <Recipe>
-      <UniqueID>Make Sterile Bandage</UniqueID>
-      <NativeName>Sterilize</NativeName>
-      <RecipeType>Workbench</RecipeType>
-      <ShowRecipe>IfAnyIngredientsFoundAndHasSkill</ShowRecipe>
-      <CraftingStationType>Improvised Lab</CraftingStationType>
-      <SkillType>Medicine</SkillType>
-      <SkillLevel>3</SkillLevel>
-      <SkillProgression>15</SkillProgression>
-      <ProductPrototypeName>Sterile Bandage</ProductPrototypeName>
-      <CraftingTime>2</CraftingTime>
-      <Ingredients>
-        <Ingredient>
-          <LiquidTypeNames>
-            <string>Vodka</string>
-          </LiquidTypeNames>
-          <LiquidAmount>5</LiquidAmount>
-        </Ingredient>
-        <Ingredient>
-          <PrototypeNames>
-            <string>Rag</string>
-          </PrototypeNames>
-          <Amount>1</Amount>
-        </Ingredient>
-        <!-- <Ingredient>
-          <PrototypeNames>
-            <string>Antiseptic</string>
-          </PrototypeNames>
-          <Amount>1</Amount>
-        </Ingredient> -->
-      </Ingredients>
-    </Recipe>
-    <Recipe>
       <UniqueID>Make Medical Kit</UniqueID>
       <NativeName>Make Medical Kit</NativeName>
       <ShowRecipe>IfAnyIngredientsFoundAndHasSkill</ShowRecipe>
@@ -1722,12 +1690,6 @@
           </PrototypeNames>
           <Amount>5</Amount>
         </Ingredient>
-        <Ingredient>
-          <LiquidTypeNames>
-            <string>Vodka</string>
-          </LiquidTypeNames>
-          <LiquidAmount>2</LiquidAmount>
-        </Ingredient>
       </Ingredients>
     </Recipe>
     <Recipe>
@@ -1856,7 +1818,7 @@
           <LiquidTypeNames>
             <string>Chemicals</string>
           </LiquidTypeNames>
-          <LiquidAmount>10</LiquidAmount>
+          <LiquidAmount>5</LiquidAmount>
         </Ingredient>
         <Ingredient>
           <PrototypeNames>
@@ -1864,8 +1826,15 @@
           </PrototypeNames>
           <Amount>2</Amount>
         </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>EmptyCapsule</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+        </Ingredient>
       </Ingredients>
     </Recipe>
+    <!-- Coagulant Powder (Commented out for now)
     <Recipe>
       <UniqueID>Make Coagulant Powder</UniqueID>
       <NativeName>Make Coagulant Powder</NativeName>
@@ -1899,6 +1868,8 @@
         </Ingredient>
       </Ingredients>
     </Recipe>
+    -->
+    <!-- Make Hemostatic (Commented out for now - requires Coagulant Powder)
     <Recipe>
       <UniqueID>Make Hemostatic</UniqueID>
       <NativeName>Make Hemostatic</NativeName>
@@ -1926,6 +1897,7 @@
         </Ingredient>
       </Ingredients>
     </Recipe>
+    -->
     <Recipe>
       <UniqueID>Sterilize with Antiseptic</UniqueID>
       <NativeName>Sterilize Bandage</NativeName>
@@ -2008,6 +1980,12 @@
             <string>Water</string>
           </LiquidTypeNames>
           <LiquidAmount>25</LiquidAmount>
+        </Ingredient>
+        <Ingredient>
+          <LiquidTypeNames>
+            <string>Kerosene</string>
+          </LiquidTypeNames>
+          <LiquidAmount>5</LiquidAmount>
         </Ingredient>
       </Ingredients>
     </Recipe>
