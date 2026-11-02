@@ -85,8 +85,8 @@ EQUIPMENT_Antigen_Invisible	Invisible Strain Antigen
 DESC_Antigen_Invisible	
 EQUIPMENT_Crafted_Antigen_Invisible	Invisible Strain Antigen
 DESC_Crafted_Antigen_Invisible	
-EQUIPMENT_Chemicals	Chemicals
-DESC_Chemicals	
+EQUIPMENT_Chemicals	Chemical Jugs
+DESC_Chemicals	A heavy-duty industrial chemical jug. Safely stores and transports up to 500 fl oz of liquids or chemical reagents.
 EQUIPMENT_Chemistry Bottles	Chemistry Bottles
 DESC_Chemistry Bottles	
 EQUIPMENT_Crafted_Antigen_White	Crafted White Strain Antigen
@@ -143,3 +143,6 @@ RECIPE_Make Coagulant Powder	Make Coagulant Powder
 RECIPE_Make Hemostatic	Make Hemostatic
 RECIPE_Sterilize with Antiseptic	Sterilize Bandage
 RECIPE_Sterilize Bandage with Antiseptic	Sterilize Bandage
+LIQUID_Chemicals	Chemicals
+RECIPE_Make Chemicals	Make Chemicals
+RECIPE_Synthesize Chemicals from Plastic	Synthesize Chemicals

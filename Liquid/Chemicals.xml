@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LiquidPrototype xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NativeName>Chemicals</NativeName>
+  <Category>6:Crafting</Category>
+  <Col>
+    <r>75</r>
+    <g>210</g>
+    <b>85</b>
+    <a>255</a>
+  </Col>
+  <BasePricePerFlOz>0.6</BasePricePerFlOz>
+  <Flammable>true</Flammable>
+  <CanPourIntoBottles>true</CanPourIntoBottles>
+</LiquidPrototype>

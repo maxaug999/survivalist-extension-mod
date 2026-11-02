@@ -76,7 +76,7 @@
   <HarvestSeedsType>MedicinalHerbSeeds</HarvestSeedsType>
   <MaxYield>5</MaxYield>
   <MaxSeedsYield>3</MaxSeedsYield>
-  <WaterNeededPerDayInFlOz>50</WaterNeededPerDayInFlOz>
+  <WaterNeededPerDayInFlOz>75</WaterNeededPerDayInFlOz>
   <Color>
     <r>68</r>
     <g>168</g>

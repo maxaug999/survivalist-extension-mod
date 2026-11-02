@@ -1,9 +1,17 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <EquipmentPrototype xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <NativeName>Chemicals</NativeName>
-  <Category>3:Medical</Category>
-  <Weight>7</Weight>
+  <TypeName>PlasticBottle</TypeName>
+  <NativeName>Chemical Jugs</NativeName>
+  <NativeDescription>A heavy-duty industrial chemical jug. Safely stores and transports up to 500 fl oz of liquids or chemical reagents.</NativeDescription>
+  <Category>7:Containers</Category>
+  <Weight>16</Weight>
   <BasePrice>60</BasePrice>
+  <CanBeEquipped>true</CanBeEquipped>
+  <CanBeCombined>false</CanBeCombined>
+  <LiquidCapacity>500</LiquidCapacity>
+  <DefaultLiquidType>Chemicals</DefaultLiquidType>
+  <DefaultLiquidFilledMin>50</DefaultLiquidFilledMin>
+  <DefaultLiquidFilledMax>500</DefaultLiquidFilledMax>
   <Scarcity>Common</Scarcity>
   <LootableFromLocations>
     <LootableFrom>
@@ -11,7 +19,6 @@
     </LootableFrom>
     <LootableFrom>
       <Name>Scientific</Name>
-      <OverrideScarcity>Uncommon</OverrideScarcity>
     </LootableFrom>
     <LootableFrom>
       <Name>Military</Name>
@@ -33,11 +40,7 @@
       <Name>PassengerPlane</Name>
       <OverrideScarcity>VeryRare</OverrideScarcity>
     </LootableFrom>
-    <LootableFrom>
-      <Name>Survivor</Name>
-      <OverrideScarcity>VeryRare</OverrideScarcity>
-    </LootableFrom>
   </LootableFromLocations>
-  <TypicalLootAmount>3</TypicalLootAmount>
+  <TypicalLootAmount>1</TypicalLootAmount>
   <TradeBehaviour>CanSellToPlayer</TradeBehaviour>
 </EquipmentPrototype>
