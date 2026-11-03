@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<EquipmentPrototype xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NativeName>Bituminous Coal</NativeName>
+  <NativeDescription>Bituminous Coal</NativeDescription>
+  <Category>6:Crafting</Category>
+  <Weight>0.01</Weight>
+  <BasePrice>25</BasePrice>
+  <CanSurviveBuildingCollapse>true</CanSurviveBuildingCollapse>
+  <Scarcity>Common</Scarcity>
+  <LootableFromLocations>
+    <LootableFrom>
+      <Name>HardwareStore</Name>
+      <OverrideScarcity>Common</OverrideScarcity>
+    </LootableFrom>
+  </LootableFromLocations>
+  <TypicalLootAmount>20</TypicalLootAmount>
+  <TradeBehaviour>CanSellToAnyone</TradeBehaviour>
+  <ColorVariations />
+</EquipmentPrototype>

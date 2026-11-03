@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<OreSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Relations>
+    <Relation Ore="Stone">
+      <Associated_Ore name="BituminousCoal" prob="0.5" />
+      <Associated_Ore name="GoldOre" prob="0.1" />
+    </Relation>
+    <Relation Ore="Flint" />
+    <Relation Ore="LeadOre">
+      <Associated_Ore name="Sulfur" prob="0.8" />
+      <Associated_Ore name="BituminousCoal" prob="0.25" />
+      <Associated_Ore name="GoldOre" prob="0.1" />
+    </Relation>
+    <Relation Ore="IronOre">
+      <Associated_Ore name="Sulfur" prob="0.15" />
+      <Associated_Ore name="BituminousCoal" prob="0.25" />
+      <Associated_Ore name="GoldOre" prob="0.25" />
+    </Relation>
+  </Relations>
+  <debugMode>false</debugMode>
+</OreSettings>

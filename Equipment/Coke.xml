@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<EquipmentPrototype xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NativeName>Coke</NativeName>
+  <NativeDescription>Coke ore is a mineral that is used the same way as coal.</NativeDescription>
+  <Category>6:Crafting</Category>
+  <Weight>0.01</Weight>
+  <BasePrice>100</BasePrice>
+  <CanSurviveBuildingCollapse>true</CanSurviveBuildingCollapse>
+  <Scarcity>VeryRare</Scarcity>
+  <LootableFromLocations>
+    <LootableFrom>
+      <Name>HardwareStore</Name>
+      <OverrideScarcity>Rare</OverrideScarcity>
+    </LootableFrom>
+  </LootableFromLocations>
+  <TypicalLootAmount>5</TypicalLootAmount>
+  <TradeBehaviour>CanSellToAnyone</TradeBehaviour>
+  <ColorVariations />
+</EquipmentPrototype>

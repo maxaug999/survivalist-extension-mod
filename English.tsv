@@ -149,3 +149,28 @@ RECIPE_Distill Chemicals	Distill Chemicals
 RECIPE_Synthesize Chemicals from Plastic	Synthesize Chemicals from Plastics
 RECIPE_Refine Chemicals from Fuel	Refine Chemicals
 RECIPE_Synthesize Chemicals from Corn	Synthesize Chemicals from Crops
+# --- Ore Extension (3571380503) merged entries ---
+EQUIPMENT_BituminousCoal	Bituminous Coal
+DESC_BituminousCoal	Bituminous Coal
+EQUIPMENT_Coke	Coke
+DESC_Coke	Coke
+EQUIPMENT_GoldOre	Gold Ore
+DESC_GoldOre	Gold Ore
+EQUIPMENT_Sulfur	Sulfur
+DESC_Sulfur	Sulfur
+
+RECIPE_extraction_coke	extraction coke
+RECIPE_extraction_gold	extraction gold
+RECIPE_Make Armor Piercing AR Ammo Coke	Make Armor Piercing AR Ammo(Coke)
+RECIPE_Make Armor Piercing Sniper Ammo coke	Make Armor Piercing Sniper Ammo (coke)
+RECIPE_Make Assault Rifle Ammo coke	Make Assault Rifle Ammo (coke)
+RECIPE_Make Car Parts coke	Make Car Parts (coke)
+RECIPE_Make Iron Arrows coke	Make Iron Arrows (coke)
+RECIPE_Make Pipe coke	Make Pipe (coke)
+RECIPE_Make Pistol Ammo coke	Make Pistol Ammo (coke)
+RECIPE_Make Shotgun Shells coke	Make Shotgun Shells (coke)
+RECIPE_Make Sniper Rifle Ammo coke	Make Sniper Rifle Ammo (coke)
+RECIPE_Make Steel Arrows coke	Make Steel Arrows (coke)
+RECIPE_Make Steel coke	Make Steel (coke)
+RECIPE_Make_Gunpowder1	Another recipe for Gunpowder
+RECIPE_Ore_analysis_Iron	Stone to Iron
