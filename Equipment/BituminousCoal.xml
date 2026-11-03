@@ -1,19 +1,30 @@
 <?xml version="1.0"?>
 <EquipmentPrototype xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NativeName>Bituminous Coal</NativeName>
-  <NativeDescription>Bituminous Coal</NativeDescription>
+  <NativeDescription>You can make a fire with it, or make a forge burn hot enough to craft metal items such as bullets and extract Sulfur</NativeDescription>
   <Category>6:Crafting</Category>
-  <Weight>0.01</Weight>
-  <BasePrice>25</BasePrice>
-  <CanSurviveBuildingCollapse>true</CanSurviveBuildingCollapse>
-  <Scarcity>Common</Scarcity>
+  <Weight>6</Weight>
+  <BasePrice>5</BasePrice>
+  <CanBeEquipped>true</CanBeEquipped>
+  <Scarcity>Rare</Scarcity>
   <LootableFromLocations>
     <LootableFrom>
       <Name>HardwareStore</Name>
-      <OverrideScarcity>Common</OverrideScarcity>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>Camp</Name>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>House</Name>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>GardeningStore</Name>
+    </LootableFrom>
+    <LootableFrom>
+      <Name>GeneralStore</Name>
     </LootableFrom>
   </LootableFromLocations>
-  <TypicalLootAmount>20</TypicalLootAmount>
+  <TypicalLootAmount>30</TypicalLootAmount>
   <TradeBehaviour>CanSellToAnyone</TradeBehaviour>
   <ColorVariations />
 </EquipmentPrototype>

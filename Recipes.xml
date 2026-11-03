@@ -23,6 +23,7 @@
         <Ingredient>
           <PrototypeNames>
             <string>Charcoal</string>
+            <string>Coke</string>
           </PrototypeNames>
           <Amount>1</Amount>
         </Ingredient>
@@ -50,6 +51,7 @@
         <Ingredient>
           <PrototypeNames>
             <string>Charcoal</string>
+            <string>Coke</string>
           </PrototypeNames>
           <Amount>1</Amount>
         </Ingredient>
@@ -77,6 +79,7 @@
         <Ingredient>
           <PrototypeNames>
             <string>Charcoal</string>
+            <string>Coke</string>
           </PrototypeNames>
           <Amount>1</Amount>
         </Ingredient>
@@ -104,6 +107,7 @@
         <Ingredient>
           <PrototypeNames>
             <string>Charcoal</string>
+            <string>Coke</string>
           </PrototypeNames>
           <Amount>1</Amount>
         </Ingredient>
@@ -131,6 +135,7 @@
         <Ingredient>
           <PrototypeNames>
             <string>Charcoal</string>
+            <string>Coke</string>
           </PrototypeNames>
           <Amount>2</Amount>
         </Ingredient>
@@ -340,6 +345,7 @@
         <Ingredient>
           <PrototypeNames>
             <string>Charcoal</string>
+            <string>Coke</string>
           </PrototypeNames>
           <Amount>1</Amount>
         </Ingredient>
@@ -373,6 +379,7 @@
         <Ingredient>
           <PrototypeNames>
             <string>Charcoal</string>
+            <string>Coke</string>
           </PrototypeNames>
           <Amount>1</Amount>
         </Ingredient>
@@ -938,6 +945,7 @@
         <Ingredient>
           <PrototypeNames>
             <string>Charcoal</string>
+            <string>Coke</string>
           </PrototypeNames>
           <Amount>1</Amount>
         </Ingredient>
@@ -977,6 +985,7 @@
         <Ingredient>
           <PrototypeNames>
             <string>Charcoal</string>
+            <string>Coke</string>
           </PrototypeNames>
           <Amount>1</Amount>
         </Ingredient>
@@ -1016,6 +1025,7 @@
         <Ingredient>
           <PrototypeNames>
             <string>Charcoal</string>
+            <string>Coke</string>
           </PrototypeNames>
           <Amount>1</Amount>
         </Ingredient>
@@ -1154,6 +1164,7 @@
         <Ingredient>
           <PrototypeNames>
             <string>Charcoal</string>
+            <string>Coke</string>
           </PrototypeNames>
           <Amount>1</Amount>
         </Ingredient>
@@ -1187,6 +1198,7 @@
         <Ingredient>
           <PrototypeNames>
             <string>Charcoal</string>
+            <string>Coke</string>
           </PrototypeNames>
           <Amount>1</Amount>
         </Ingredient>
@@ -1220,6 +1232,7 @@
         <Ingredient>
           <PrototypeNames>
             <string>Charcoal</string>
+            <string>Coke</string>
           </PrototypeNames>
           <Amount>1</Amount>
         </Ingredient>
@@ -2014,6 +2027,7 @@
         <Ingredient>
           <PrototypeNames>
             <string>Charcoal</string>
+            <string>Coke</string>
           </PrototypeNames>
           <Amount>1</Amount>
         </Ingredient>
@@ -2088,6 +2102,7 @@
         <Ingredient>
           <PrototypeNames>
             <string>Charcoal</string>
+            <string>Coke</string>
           </PrototypeNames>
           <Amount>1</Amount>
         </Ingredient>
@@ -2128,6 +2143,7 @@
         <Ingredient>
           <PrototypeNames>
             <string>Charcoal</string>
+            <string>Coke</string>
           </PrototypeNames>
           <Amount>1</Amount>
         </Ingredient>
@@ -2278,7 +2294,7 @@
       <ExtraOutputs>
         <RecipeExtraOutput>
           <ProductPrototypeName>Sulfur</ProductPrototypeName>
-          <MinAmount>1</MinAmount>
+          <MinAmount>0</MinAmount>
           <MaxAmount>2</MaxAmount>
           <Probability>80</Probability>
         </RecipeExtraOutput>
@@ -2323,6 +2339,7 @@
       <Ingredients>
         <Ingredient>
           <PrototypeNames>
+            <string>Charcoal</string>
             <string>Coke</string>
           </PrototypeNames>
           <Amount>1</Amount>
@@ -2358,6 +2375,7 @@
         <Ingredient>
           <PrototypeNames>
             <string>Charcoal</string>
+            <string>Coke</string>
           </PrototypeNames>
           <Amount>1</Amount>
         </Ingredient>
@@ -2390,37 +2408,37 @@
           <ProductPrototypeName>Sulfur</ProductPrototypeName>
           <MinAmount>0</MinAmount>
           <MaxAmount>2</MaxAmount>
-          <Probability>10</Probability>
+          <Probability>9</Probability>
         </RecipeExtraOutput>
         <RecipeExtraOutput>
           <ProductPrototypeName>BituminousCoal</ProductPrototypeName>
           <MinAmount>0</MinAmount>
           <MaxAmount>2</MaxAmount>
-          <Probability>10</Probability>
+          <Probability>9</Probability>
         </RecipeExtraOutput>
         <RecipeExtraOutput>
           <ProductPrototypeName>IronOre</ProductPrototypeName>
           <MinAmount>0</MinAmount>
           <MaxAmount>2</MaxAmount>
-          <Probability>10</Probability>
+          <Probability>7</Probability>
         </RecipeExtraOutput>
         <RecipeExtraOutput>
           <ProductPrototypeName>LeadOre</ProductPrototypeName>
           <MinAmount>0</MinAmount>
           <MaxAmount>2</MaxAmount>
-          <Probability>15</Probability>
+          <Probability>7</Probability>
         </RecipeExtraOutput>
         <RecipeExtraOutput>
           <ProductPrototypeName>Flint</ProductPrototypeName>
           <MinAmount>0</MinAmount>
           <MaxAmount>3</MaxAmount>
-          <Probability>20</Probability>
+          <Probability>12</Probability>
         </RecipeExtraOutput>
         <RecipeExtraOutput>
           <ProductPrototypeName>CopperOre</ProductPrototypeName>
           <MinAmount>0</MinAmount>
           <MaxAmount>2</MaxAmount>
-          <Probability>15</Probability>
+          <Probability>10</Probability>
         </RecipeExtraOutput>
       </ExtraOutputs>
       <CraftingTime>100</CraftingTime>

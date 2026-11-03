@@ -2,36 +2,36 @@
 <OreSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Relations>
     <Relation Ore="Stone">
-      <Associated_Ore name="Flint" prob="0.009" />
-      <Associated_Ore name="LeadOre" prob="0.007" />
-      <Associated_Ore name="IronOre" prob="0.007" />
+      <Associated_Ore name="Flint" prob="0.008" />
+      <Associated_Ore name="LeadOre" prob="0.006" />
+      <Associated_Ore name="IronOre" prob="0.006" />
       <Associated_Ore name="Sulfur" prob="0.04" />
       <Associated_Ore name="BituminousCoal" prob="0.05" />
-      <Associated_Ore name="GoldOre" prob="0.006" />
+      <Associated_Ore name="GoldOre" prob="0.004" />
       <Associated_Ore name="CopperOre" prob="0.01" />
     </Relation>
     <Relation Ore="Flint">
-      <Associated_Ore name="Stone" prob="0.009" />
-      <Associated_Ore name="LeadOre" prob="0.007" />
-      <Associated_Ore name="IronOre" prob="0.007" />
+      <Associated_Ore name="Stone" prob="0.008" />
+      <Associated_Ore name="LeadOre" prob="0.006" />
+      <Associated_Ore name="IronOre" prob="0.006" />
       <Associated_Ore name="Sulfur" prob="0.04" />
       <Associated_Ore name="BituminousCoal" prob="0.04" />
       <Associated_Ore name="GoldOre" prob="0.005" />
       <Associated_Ore name="CopperOre" prob="0.011" />
     </Relation>
     <Relation Ore="LeadOre">
-      <Associated_Ore name="Stone" prob="0.008" />
-      <Associated_Ore name="Flint" prob="0.009" />
-      <Associated_Ore name="IronOre" prob="0.01" />
+      <Associated_Ore name="Stone" prob="0.007" />
+      <Associated_Ore name="Flint" prob="0.008" />
+      <Associated_Ore name="IronOre" prob="0.008" />
       <Associated_Ore name="Sulfur" prob="0.05" />
       <Associated_Ore name="BituminousCoal" prob="0.08" />
       <Associated_Ore name="GoldOre" prob="0.009" />
       <Associated_Ore name="CopperOre" prob="0.015" />
     </Relation>
     <Relation Ore="IronOre">
-      <Associated_Ore name="Stone" prob="0.008" />
-      <Associated_Ore name="Flint" prob="0.009" />
-      <Associated_Ore name="LeadOre" prob="0.01" />
+      <Associated_Ore name="Stone" prob="0.007" />
+      <Associated_Ore name="Flint" prob="0.008" />
+      <Associated_Ore name="LeadOre" prob="0.008" />
       <Associated_Ore name="Sulfur" prob="0.08" />
       <Associated_Ore name="BituminousCoal" prob="0.05" />
       <Associated_Ore name="GoldOre" prob="0.009" />
