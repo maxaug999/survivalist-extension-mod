@@ -4,7 +4,7 @@
   <NativeDescription>Best item to heal, but hard to find and produce at the lab. Healing level 25</NativeDescription>
   <Category>3:Medical</Category>
   <Weight>3</Weight>
-  <BasePrice>30</BasePrice>
+  <BasePrice>20</BasePrice>
   <CanBeEquipped>false</CanBeEquipped>
   <BandageLevel>25</BandageLevel>
   <Scarcity>VeryRare</Scarcity>

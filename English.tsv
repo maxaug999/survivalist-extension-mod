@@ -76,6 +76,7 @@ DESC_Medical Kit	A must to survive, but hard to find or make these days
 EQUIPMENT_Sterile Bandage	Sterile Bandage
 DESC_Sterile Bandage	Bandage can be upgraded into a quality Sterile Bandage, at the lab. Healing level 10
 RECIPE_Make Sterile Bandage	Make Sterile Bandage
+RECIPE_Make First Aid Kit	Make First Aid Kit
 RECIPE_Make Medical Kit	Make Medical Kit
 RECIPE_Open First Aid Kit	Open First Aid Kit
 RECIPE_Open Hemostatic	Open Hemostatic

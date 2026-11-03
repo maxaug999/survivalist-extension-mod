@@ -1350,6 +1350,39 @@
       </Ingredients>
     </Recipe>
     <Recipe>
+      <UniqueID>Make First Aid Kit</UniqueID>
+      <NativeName>Make First Aid Kit</NativeName>
+      <RecipeType>Workbench</RecipeType>
+      <ShowRecipe>IfAnyIngredientsFoundAndHasSkill</ShowRecipe>
+      <CraftingStationType>Improvised Lab</CraftingStationType>
+      <SkillType>Medicine</SkillType>
+      <SkillLevel>3</SkillLevel>
+      <SkillProgression>20</SkillProgression>
+      <ProductPrototypeName>First Aid Kit</ProductPrototypeName>
+      <ProductAmount>1</ProductAmount>
+      <CraftingTime>45</CraftingTime>
+      <Ingredients>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Sterile Bandage</string>
+          </PrototypeNames>
+          <Amount>2</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Antiseptic</string>
+          </PrototypeNames>
+          <Amount>1</Amount>
+        </Ingredient>
+        <Ingredient>
+          <PrototypeNames>
+            <string>Analgesic</string>
+          </PrototypeNames>
+          <Amount>2</Amount>
+        </Ingredient>
+      </Ingredients>
+    </Recipe>
+    <Recipe>
       <UniqueID>Make Medical Kit</UniqueID>
       <NativeName>Make Medical Kit</NativeName>
       <ShowRecipe>IfAnyIngredientsFoundAndHasSkill</ShowRecipe>

@@ -5,7 +5,7 @@
   <Category>3:Medical</Category>
   <SightRangeModifier>1</SightRangeModifier>
   <Weight>5</Weight>
-  <BasePrice>320</BasePrice>
+  <BasePrice>100</BasePrice>
   <CanBeEquipped>false</CanBeEquipped>
   <Scarcity>Legendary</Scarcity>
   <LootableFromLocations>
@@ -39,4 +39,5 @@
   </LootableFromLocations>
   <SkillBonusType>Medicine</SkillBonusType>
   <SkillBonus>3</SkillBonus>
+  <TradeBehaviour>CantSellToAnyone</TradeBehaviour>
 </EquipmentPrototype>
