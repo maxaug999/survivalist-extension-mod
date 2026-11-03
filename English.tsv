@@ -172,5 +172,7 @@ RECIPE_Make Shotgun Shells coke	Make Shotgun Shells (coke)
 RECIPE_Make Sniper Rifle Ammo coke	Make Sniper Rifle Ammo (coke)
 RECIPE_Make Steel Arrows coke	Make Steel Arrows (coke)
 RECIPE_Make Steel coke	Make Steel (coke)
-RECIPE_Make_Gunpowder1	Another recipe for Gunpowder
-RECIPE_Ore_analysis_Iron	Stone to Iron
+RECIPE_Make_Gunpowder1	Make Gunpowder with Sulfur
+RECIPE_Ore_analysis_Iron	Stone to Minerals
+RECIPE_Distill Chemicals from Sulfur	Distill Chemicals from Sulfur
+RECIPE_Make Sulfa Antiseptic	Make Sulfa Antiseptic

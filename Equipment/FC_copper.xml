@@ -3,7 +3,7 @@
   <NativeName>Copper</NativeName>
   <NativeDescription>Good ingredient</NativeDescription>
   <Category>6:Crafting</Category>
-  <Weight>1</Weight>
+  <Weight>1.75</Weight>
   <BasePrice>1</BasePrice>
   <Scarcity>Uncommon</Scarcity>
   <LootableFromLocations>
