@@ -4,8 +4,6 @@ STORY_Description	Contains buildable props, buildings and possibly weapons to su
 
 EQUIPMENT_FC_coins	Coins
 DESC_FC_coins	Former medium of exchange, still valuable to some.
-EQUIPMENT_FC_copper	Copper
-DESC_FC_copper	Refined copper metal.
 EQUIPMENT_PortableParts	Portable Parts
 DESC_PortableParts	Used for creating Plastic Constructions.
 EQUIPMENT_FC_throwstone	Throwing Stone
@@ -176,3 +174,5 @@ RECIPE_Make_Gunpowder1	Make Gunpowder with Sulfur
 RECIPE_Ore_analysis_Iron	Stone to Minerals
 RECIPE_Distill Chemicals from Sulfur	Distill Chemicals from Sulfur
 RECIPE_Make Sulfa Antiseptic	Make Sulfa Antiseptic
+EQUIPMENT_CopperOre	Copper Ore
+DESC_CopperOre	Raw copper ore mined from mineral veins. Used to craft ammunition and equipment.

@@ -4,7 +4,7 @@
   <NativeDescription>Gold Ore</NativeDescription>
   <Category>6:Crafting</Category>
   <Weight>1</Weight>
-  <BasePrice>2</BasePrice>
+  <BasePrice>5</BasePrice>
   <CanSurviveBuildingCollapse>true</CanSurviveBuildingCollapse>
   <Scarcity>VeryRare</Scarcity>
   <LootableFromLocations>

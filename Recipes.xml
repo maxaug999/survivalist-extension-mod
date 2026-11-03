@@ -955,7 +955,7 @@
         </Ingredient>
         <Ingredient>
           <PrototypeNames>
-            <string>FC_copper</string>
+            <string>CopperOre</string>
           </PrototypeNames>
           <Amount>1</Amount>
         </Ingredient>
@@ -994,7 +994,7 @@
         </Ingredient>
         <Ingredient>
           <PrototypeNames>
-            <string>FC_copper</string>
+            <string>CopperOre</string>
           </PrototypeNames>
           <Amount>1</Amount>
         </Ingredient>
@@ -1027,7 +1027,7 @@
         </Ingredient>
         <Ingredient>
           <PrototypeNames>
-            <string>FC_copper</string>
+            <string>CopperOre</string>
           </PrototypeNames>
           <Amount>1</Amount>
         </Ingredient>
@@ -1165,7 +1165,7 @@
         </Ingredient>
         <Ingredient>
           <PrototypeNames>
-            <string>FC_copper</string>
+            <string>CopperOre</string>
           </PrototypeNames>
           <Amount>1</Amount>
         </Ingredient>
@@ -1198,7 +1198,7 @@
         </Ingredient>
         <Ingredient>
           <PrototypeNames>
-            <string>FC_copper</string>
+            <string>CopperOre</string>
           </PrototypeNames>
           <Amount>1</Amount>
         </Ingredient>
@@ -1231,7 +1231,7 @@
         </Ingredient>
         <Ingredient>
           <PrototypeNames>
-            <string>FC_copper</string>
+            <string>CopperOre</string>
           </PrototypeNames>
           <Amount>1</Amount>
         </Ingredient>
@@ -1291,7 +1291,7 @@
       <SkillType>Construction</SkillType>
       <SkillLevel>1</SkillLevel>
       <SkillProgression>5</SkillProgression>
-      <ProductPrototypeName>FC_copper</ProductPrototypeName>
+      <ProductPrototypeName>CopperOre</ProductPrototypeName>
       <IsDisassembly>true</IsDisassembly>
       <CraftingTime>15</CraftingTime>
       <Ingredients>
@@ -1312,7 +1312,7 @@
       <SkillType>Construction</SkillType>
       <SkillLevel>2</SkillLevel>
       <SkillProgression>25</SkillProgression>
-      <ProductPrototypeName>FC_copper</ProductPrototypeName>
+      <ProductPrototypeName>CopperOre</ProductPrototypeName>
       <ProductAmount>5</ProductAmount>
       <IsDisassembly>true</IsDisassembly>
       <CraftingTime>25</CraftingTime>
@@ -2415,6 +2415,12 @@
           <MinAmount>0</MinAmount>
           <MaxAmount>3</MaxAmount>
           <Probability>20</Probability>
+        </RecipeExtraOutput>
+        <RecipeExtraOutput>
+          <ProductPrototypeName>CopperOre</ProductPrototypeName>
+          <MinAmount>0</MinAmount>
+          <MaxAmount>2</MaxAmount>
+          <Probability>15</Probability>
         </RecipeExtraOutput>
       </ExtraOutputs>
       <CraftingTime>100</CraftingTime>

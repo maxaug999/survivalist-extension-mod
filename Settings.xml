@@ -80,7 +80,7 @@ Known issues:
       <Points>1</Points>
     </StartingEquipment>
     <StartingEquipment>
-      <Name>FC_copper</Name>
+      <Name>CopperOre</Name>
       <Amount>20</Amount>
       <Points>1</Points>
     </StartingEquipment>
