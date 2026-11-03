@@ -4,9 +4,9 @@
     <Recipe>
       <UniqueID>meltTo_Bottle</UniqueID>
       <NativeName>Melt into Plastic Bottle</NativeName>
-      <RecipeType>Kiln</RecipeType>
+      <RecipeType>Forge</RecipeType>
       <ShowRecipe>IfAnyIngredientsFound</ShowRecipe>
-      <CraftingStationType>Kiln</CraftingStationType>
+      <CraftingStationType>Forge</CraftingStationType>
       <SkillType>Construction</SkillType>
       <SkillLevel>3</SkillLevel>
       <SkillProgression>5</SkillProgression>
@@ -32,9 +32,9 @@
     <Recipe>
       <UniqueID>meltTo_Bucket</UniqueID>
       <NativeName>Melt into Catering Bucket</NativeName>
-      <RecipeType>Kiln</RecipeType>
+      <RecipeType>Forge</RecipeType>
       <ShowRecipe>IfAnyIngredientsFound</ShowRecipe>
-      <CraftingStationType>Kiln</CraftingStationType>
+      <CraftingStationType>Forge</CraftingStationType>
       <SkillType>Construction</SkillType>
       <SkillLevel>3</SkillLevel>
       <SkillProgression>5</SkillProgression>
@@ -60,9 +60,9 @@
     <Recipe>
       <UniqueID>meltTo_Tupper</UniqueID>
       <NativeName>Melt into Sealed Container</NativeName>
-      <RecipeType>Kiln</RecipeType>
+      <RecipeType>Forge</RecipeType>
       <ShowRecipe>IfAnyIngredientsFound</ShowRecipe>
-      <CraftingStationType>Kiln</CraftingStationType>
+      <CraftingStationType>Forge</CraftingStationType>
       <SkillType>Construction</SkillType>
       <SkillLevel>3</SkillLevel>
       <SkillProgression>5</SkillProgression>
@@ -88,9 +88,9 @@
     <Recipe>
       <UniqueID>meltTo_WateringCan</UniqueID>
       <NativeName>Melt into Watering Can</NativeName>
-      <RecipeType>Kiln</RecipeType>
+      <RecipeType>Forge</RecipeType>
       <ShowRecipe>IfAnyIngredientsFound</ShowRecipe>
-      <CraftingStationType>Kiln</CraftingStationType>
+      <CraftingStationType>Forge</CraftingStationType>
       <SkillType>Construction</SkillType>
       <SkillLevel>3</SkillLevel>
       <SkillProgression>5</SkillProgression>
@@ -116,9 +116,9 @@
     <Recipe>
       <UniqueID>meltTo_Jerrycan</UniqueID>
       <NativeName>Melt into JerryCan</NativeName>
-      <RecipeType>Kiln</RecipeType>
+      <RecipeType>Forge</RecipeType>
       <ShowRecipe>IfAnyIngredientsFound</ShowRecipe>
-      <CraftingStationType>Kiln</CraftingStationType>
+      <CraftingStationType>Forge</CraftingStationType>
       <SkillType>Construction</SkillType>
       <SkillLevel>5</SkillLevel>
       <SkillProgression>5</SkillProgression>
